@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="GymTracker.MobileApp\GymTracker.MobileApp.csproj" />
+  <Project Path="tests\GymTracker.MobileApp.Tests\GymTracker.MobileApp.Tests.csproj" />
+</Solution>
