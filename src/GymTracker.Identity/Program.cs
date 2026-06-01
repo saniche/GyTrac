@@ -1,6 +1,7 @@
 using GymTracker.Identity.Data;
 using GymTracker.Identity.Services;
 using Microsoft.EntityFrameworkCore;
+using GymTracker.Common.Extensions;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -17,14 +18,18 @@ var app = builder.Build();
 
 if (app.Environment.IsDevelopment())
 {
+    await app.CreateAndSeedDatabaseAsync<IdentityDbContext>((db, sp) =>
+    {
+        // Seed initial data if necessary
+        return Task.CompletedTask;
+    });
+
     app.UseSwagger();
     app.UseSwaggerUI();
+    app.UseHsts();
 
-    // Apply migrations automatically in development
-    using var scope = app.Services.CreateScope();
-    var db = scope.ServiceProvider.GetRequiredService<IdentityDbContext>();
-    db.Database.Migrate();
 }
+
 
 app.UseHttpsRedirection();
 app.MapControllers();
