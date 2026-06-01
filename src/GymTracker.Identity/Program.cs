@@ -34,3 +34,6 @@ if (app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 app.MapControllers();
 app.Run();
+
+// Expose Program to WebApplicationFactory in integration tests
+public partial class Program { }
