@@ -1,9 +1,10 @@
 {
   "info": {
-    "_postman_id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+    "_postman_id": "36caab54-2af6-42bb-9ea1-7bdc22c00ca4",
     "name": "GymTracker Identity API",
     "description": "Tests for the Identity API: Register, Login, Refresh Token",
-    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "3248614"
   },
   "item": [
     {
@@ -31,7 +32,27 @@
               "pm.environment.set('refreshToken', json.refreshToken);",
               "pm.environment.set('userId', json.userId);"
             ],
-            "type": "text/javascript"
+            "type": "text/javascript",
+            "packages": {},
+            "requests": {}
+          }
+        },
+        {
+          "listen": "prerequest",
+          "script": {
+            "exec": [
+              "var email = pm.variables.replaceIn('{{$randomEmail}}');\r",
+              "var password = pm.variables.replaceIn('{{$randomPassword}}');\r",
+              "\r",
+              "pm.collectionVariables.set(\"testEmail\", email);\r",
+              "pm.collectionVariables.set(\"testPassword\", password);\r",
+              "\r",
+              "console.log('email :'+email);\r",
+              "console.log('password :'+password);"
+            ],
+            "type": "text/javascript",
+            "packages": {},
+            "requests": {}
           }
         }
       ],
@@ -49,8 +70,14 @@
         },
         "url": {
           "raw": "{{baseUrl}}/api/auth/register",
-          "host": ["{{baseUrl}}"],
-          "path": ["api", "auth", "register"]
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "api",
+            "auth",
+            "register"
+          ]
         }
       },
       "response": []
@@ -98,8 +125,14 @@
         },
         "url": {
           "raw": "{{baseUrl}}/api/auth/login",
-          "host": ["{{baseUrl}}"],
-          "path": ["api", "auth", "login"]
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "api",
+            "auth",
+            "login"
+          ]
         }
       },
       "response": []
@@ -145,8 +178,14 @@
         },
         "url": {
           "raw": "{{baseUrl}}/api/auth/refresh",
-          "host": ["{{baseUrl}}"],
-          "path": ["api", "auth", "refresh"]
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "api",
+            "auth",
+            "refresh"
+          ]
         }
       },
       "response": []
@@ -180,8 +219,14 @@
         },
         "url": {
           "raw": "{{baseUrl}}/api/auth/register",
-          "host": ["{{baseUrl}}"],
-          "path": ["api", "auth", "register"]
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "api",
+            "auth",
+            "register"
+          ]
         }
       },
       "response": []
@@ -215,8 +260,14 @@
         },
         "url": {
           "raw": "{{baseUrl}}/api/auth/register",
-          "host": ["{{baseUrl}}"],
-          "path": ["api", "auth", "register"]
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "api",
+            "auth",
+            "register"
+          ]
         }
       },
       "response": []
@@ -250,8 +301,14 @@
         },
         "url": {
           "raw": "{{baseUrl}}/api/auth/login",
-          "host": ["{{baseUrl}}"],
-          "path": ["api", "auth", "login"]
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "api",
+            "auth",
+            "login"
+          ]
         }
       },
       "response": []
@@ -285,11 +342,27 @@
         },
         "url": {
           "raw": "{{baseUrl}}/api/auth/refresh",
-          "host": ["{{baseUrl}}"],
-          "path": ["api", "auth", "refresh"]
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "api",
+            "auth",
+            "refresh"
+          ]
         }
       },
       "response": []
+    }
+  ],
+  "variable": [
+    {
+      "key": "testEmail",
+      "value": ""
+    },
+    {
+      "key": "testPassword",
+      "value": ""
     }
   ]
 }
