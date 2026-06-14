@@ -26,5 +26,12 @@ public sealed class LoginRequest
 public sealed class AuthResponse
 {
     public string Token { get; set; } = string.Empty;
+    public string RefreshToken { get; set; } = string.Empty;
     public Guid UserId { get; set; }
+}
+
+public sealed class RefreshTokenRequest
+{
+    [Required]
+    public string RefreshToken { get; set; } = string.Empty;
 }

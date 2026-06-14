@@ -26,7 +26,7 @@ public sealed class AuthController : ControllerBase
         if (!result.IsSuccess)
             return Conflict(new { error = result.Error });
 
-        return Ok(new AuthResponse { Token = result.Token!, UserId = result.UserId });
+        return Ok(new AuthResponse { Token = result.Token!, RefreshToken = result.RefreshToken!, UserId = result.UserId });
     }
 
     [HttpPost("login")]
@@ -40,6 +40,20 @@ public sealed class AuthController : ControllerBase
         if (!result.IsSuccess)
             return Unauthorized(new { error = result.Error });
 
-        return Ok(new AuthResponse { Token = result.Token!, UserId = result.UserId });
+        return Ok(new AuthResponse { Token = result.Token!, RefreshToken = result.RefreshToken!, UserId = result.UserId });
+    }
+
+    [HttpPost("refresh")]
+    public async Task<IActionResult> Refresh([FromBody] RefreshTokenRequest request, CancellationToken cancellationToken)
+    {
+        if (!ModelState.IsValid)
+            return BadRequest(ModelState);
+
+        var result = await _authService.RefreshTokenAsync(request.RefreshToken, cancellationToken);
+
+        if (!result.IsSuccess)
+            return Unauthorized(new { error = result.Error });
+
+        return Ok(new AuthResponse { Token = result.Token!, RefreshToken = result.RefreshToken!, UserId = result.UserId });
     }
 }
