@@ -57,17 +57,20 @@ public sealed class AuthService : IAuthService
         return AuthResult.Success(accessToken, refreshToken, user.Id);
     }
 
-    private string GetSalt()
-    {
-        var salt = _configuration.GetValue<string>("JwtSettings:TokenSalt");
+private string GetSalt()
+{
+    var jwtSettings = _configuration.GetSection("JwtSettings");
 
-        if (string.IsNullOrEmpty(salt))
-        {
-            throw new InvalidOperationException("JwtSettings:TokenSalt is not configured.");
-        }
-
+    var salt = jwtSettings["TokenSalt"];
+    if (!string.IsNullOrEmpty(salt))
         return salt;
-    }
+
+    var secret = jwtSettings["Secret"];
+    if (string.IsNullOrEmpty(secret))
+        throw new InvalidOperationException("JwtSettings:TokenSalt (or JwtSettings:Secret) is not configured.");
+
+    return secret;
+}
 
     private string HashToken(string token)
     {
