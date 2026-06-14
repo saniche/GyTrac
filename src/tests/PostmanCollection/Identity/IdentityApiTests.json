@@ -44,8 +44,8 @@
               "var email = pm.variables.replaceIn('{{$randomEmail}}');\r",
               "var password = pm.variables.replaceIn('{{$randomPassword}}');\r",
               "\r",
-              "pm.collectionVariables.set(\"testEmail\", email);\r",
-              "pm.collectionVariables.set(\"testPassword\", password);\r",
+              "pm.collectionVariables.set(\"userEmail\", email);\r",
+              "pm.collectionVariables.set(\"userPassword\", password);\r",
               "\r",
               "console.log('email :'+email);\r",
               "console.log('password :'+password);"
@@ -66,7 +66,7 @@
         ],
         "body": {
           "mode": "raw",
-          "raw": "{\n  \"email\": \"{{testEmail}}\",\n  \"password\": \"{{testPassword}}\",\n  \"confirmPassword\": \"{{testPassword}}\"\n}"
+          "raw": "{\n  \"email\": \"{{userEmail}}\",\n  \"password\": \"{{userPassword}}\",\n  \"confirmPassword\": \"{{userPassword}}\"\n}"
         },
         "url": {
           "raw": "{{baseUrl}}/api/auth/register",
@@ -107,7 +107,38 @@
               "pm.environment.set('refreshToken', json.refreshToken);",
               "pm.environment.set('userId', json.userId);"
             ],
-            "type": "text/javascript"
+            "type": "text/javascript",
+            "packages": {},
+            "requests": {}
+          }
+        },
+        {
+          "listen": "prerequest",
+          "script": {
+            "exec": [
+              "var userEmail = pm.collectionVariables.get(\"userEmail\");\r",
+              "var userPassword = pm.collectionVariables.get(\"userPassword\");\r",
+              "\r",
+              "if(userEmail){\r",
+              "    pm.variables.set('email',userEmail);\r",
+              "\r",
+              "}\r",
+              "else{\r",
+              "    pm.variables.set('email',pm.environment.get('testEmail'));\r",
+              "}\r",
+              "\r",
+              "if(userPassword){\r",
+              "    pm.variables.set('password',userPassword);\r",
+              "}\r",
+              "else{\r",
+              "    pm.variables.set('password',pm.environment.get('testPassword'));\r",
+              "}\r",
+              "\r",
+              "console.log('email :'+ pm.variables.get('email'));"
+            ],
+            "type": "text/javascript",
+            "packages": {},
+            "requests": {}
           }
         }
       ],
@@ -121,7 +152,7 @@
         ],
         "body": {
           "mode": "raw",
-          "raw": "{\n  \"email\": \"{{testEmail}}\",\n  \"password\": \"{{testPassword}}\"\n}"
+          "raw": "{\n  \"email\": \"{{email}}\",\n  \"password\": \"{{password}}\"\n}"
         },
         "url": {
           "raw": "{{baseUrl}}/api/auth/login",
@@ -362,6 +393,14 @@
     },
     {
       "key": "testPassword",
+      "value": ""
+    },
+    {
+      "key": "userEmail",
+      "value": ""
+    },
+    {
+      "key": "userPassword",
       "value": ""
     }
   ]

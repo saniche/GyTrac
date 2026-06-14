@@ -57,11 +57,31 @@ public sealed class AuthService : IAuthService
         return AuthResult.Success(accessToken, refreshToken, user.Id);
     }
 
+    private string GetSalt()
+    {
+        var salt = _configuration.GetValue<string>("JwtSettings:TokenSalt");
+
+        if (string.IsNullOrEmpty(salt))
+        {
+            throw new InvalidOperationException("JwtSettings:TokenSalt is not configured.");
+        }
+
+        return salt;
+    }
+
+    private string HashToken(string token)
+    {
+        var salt = GetSalt();
+        return Convert.ToBase64String(SHA256.HashData(Encoding.UTF8.GetBytes(token + salt)));
+    }
+
     public async Task<AuthResult> RefreshTokenAsync(string refreshToken, CancellationToken cancellationToken = default)
     {
+        var refreshTokenHash = HashToken(refreshToken);
+
         var stored = await _db.RefreshTokens
             .Include(rt => rt.User)
-            .FirstOrDefaultAsync(rt => rt.Token == refreshToken, cancellationToken);
+            .FirstOrDefaultAsync(rt => rt.Token == refreshTokenHash, cancellationToken);
 
         if (stored is null || stored.IsRevoked || stored.ExpiresAt <= DateTime.UtcNow)
             return AuthResult.Failure("Invalid or expired refresh token.");
@@ -80,13 +100,15 @@ public sealed class AuthService : IAuthService
         var refreshExpiryDays = int.TryParse(jwtSettings["RefreshExpiresInDays"], out var days) ? days : 30;
 
         var tokenBytes = RandomNumberGenerator.GetBytes(64);
-        var token = Convert.ToBase64String(tokenBytes);
+        var rawToken = Convert.ToBase64String(tokenBytes);
+
+        var tokenHash = HashToken(rawToken);
 
         var refreshToken = new RefreshToken
         {
             Id = Guid.NewGuid(),
             UserId = userId,
-            Token = token,
+            Token = tokenHash,
             CreatedAt = DateTime.UtcNow,
             ExpiresAt = DateTime.UtcNow.AddDays(refreshExpiryDays),
             IsRevoked = false
@@ -95,7 +117,7 @@ public sealed class AuthService : IAuthService
         _db.RefreshTokens.Add(refreshToken);
         await _db.SaveChangesAsync(cancellationToken);
 
-        return token;
+        return rawToken;
     }
 
     private string GenerateAccessToken(IdentityUser user)
