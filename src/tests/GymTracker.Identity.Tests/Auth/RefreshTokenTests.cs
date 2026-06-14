@@ -93,7 +93,7 @@ public sealed class RefreshTokenTests : IClassFixture<CustomWebApplicationFactor
     }
 
     [Fact]
-    public async Task Refresh_OriginalAccessTokenBecomesInvalidAfterRotation()
+    public async Task Refresh_ReturnsDifferentAccessTokenAfterRotation()
     {
         // Verify that the refresh operation actually returns a different access token
         var initial = await RegisterAndGetTokensAsync();
