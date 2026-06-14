@@ -29,6 +29,7 @@ public sealed class CustomWebApplicationFactory : WebApplicationFactory<Program>
             config.AddInMemoryCollection(new Dictionary<string, string?>
             {
                 ["JwtSettings:Secret"] = "test-secret-key-must-be-at-least-32-characters-long!",
+                ["JwtSettings:TokenSalt"] = "test-token-salt-must-be-at-least-32-characters-long!",
                 ["JwtSettings:Issuer"] = "GymTracker.Identity.Tests",
                 ["JwtSettings:Audience"] = "GymTracker.Api.Tests",
                 ["JwtSettings:ExpiresInMinutes"] = "60",
