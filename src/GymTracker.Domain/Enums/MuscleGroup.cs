@@ -20,6 +20,7 @@ public static class MuscleGroupExtensions
     {
         return muscleGroup switch
         {
+            MuscleGroup.None => "None",
             MuscleGroup.Chest => "Chest",
             MuscleGroup.Back => "Back",
             MuscleGroup.Shoulders => "Shoulders",

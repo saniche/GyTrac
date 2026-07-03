@@ -8,11 +8,11 @@ public class Exercise
     public string Name { get; private set; } = string.Empty;
     public string? Description { get; private set; }
     public MuscleGroup PrimaryMuscleGroup { get; private set; }
-    public ExcerciseType Type { get; private set; }
+    public ExerciseType Type { get; private set; }
 
     private Exercise() { }
 
-    public Exercise(Guid id, string name, MuscleGroup primaryMuscleGroup, ExcerciseType type, string? description = null)
+    public Exercise(Guid id, string name, MuscleGroup primaryMuscleGroup, ExerciseType type, string? description = null)
     {
         Id = id;
         Name = name;

@@ -1,6 +1,6 @@
 namespace GymTracker.Domain.Enums;
 
-public enum ExcerciseType
+public enum ExerciseType
 {
     Compound,
     Isolation,
@@ -12,21 +12,21 @@ public enum ExcerciseType
     Balance,
 }
 
-public static class ExcerciseTypeExtensions
+public static class ExerciseTypeExtensions
 {
-    public static string ToFriendlyString(this ExcerciseType excerciseType)
+    public static string ToFriendlyString(this ExerciseType exerciseType)
     {
-        return excerciseType switch
+        return exerciseType switch
         {
-            ExcerciseType.Compound => "Compound",
-            ExcerciseType.Isolation => "Isolation",
-            ExcerciseType.Machine => "Machine",
-            ExcerciseType.Bodyweight => "Bodyweight",
-            ExcerciseType.Cardio => "Cardio",
-            ExcerciseType.Strength => "Strength",
-            ExcerciseType.Flexibility => "Flexibility",
-            ExcerciseType.Balance => "Balance",
-            _ => throw new ArgumentOutOfRangeException(nameof(excerciseType), excerciseType, null)
+            ExerciseType.Compound => "Compound",
+            ExerciseType.Isolation => "Isolation",
+            ExerciseType.Machine => "Machine",
+            ExerciseType.Bodyweight => "Bodyweight",
+            ExerciseType.Cardio => "Cardio",
+            ExerciseType.Strength => "Strength",
+            ExerciseType.Flexibility => "Flexibility",
+            ExerciseType.Balance => "Balance",
+            _ => throw new ArgumentOutOfRangeException(nameof(exerciseType), exerciseType, null)
         };
     }
 }
