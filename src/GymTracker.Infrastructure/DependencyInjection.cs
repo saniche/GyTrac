@@ -5,6 +5,10 @@ using GymTracker.Domain.Enums;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+
+/// <summary>
+/// Provides extension methods for configuring and initializing the infrastructure layer of the application.
+/// </summary>
 public static class DependencyInjection
 {
     public static IServiceCollection AddInfrastructure(this IServiceCollection services, IConfiguration configuration)
@@ -15,7 +19,6 @@ public static class DependencyInjection
         return services;
     }
 
-    //database initialize method and seeding method can be added here if needed in the future
     public static Task InitializeDatabaseAsync(this IServiceProvider serviceProvider)
     {
         using var scope = serviceProvider.CreateScope();
@@ -23,17 +26,13 @@ public static class DependencyInjection
         return dbContext.Database.EnsureCreatedAsync();
     }
 
-    //seeding method with default exercices and routines can be added here
     public static async Task SeedDatabaseAsync(this IServiceProvider serviceProvider)
     {
         using var scope = serviceProvider.CreateScope();
         var dbContext = scope.ServiceProvider.GetRequiredService<GyTracDbContext>();
 
-        // Check if the database is empty and seed data if necessary
         if (!await dbContext.Exercises.AnyAsync())
         {
-            // Seed default exercises
-
             // Chest, Back, Legs, Shoulders, Arms, Core
             var defaultExercises = new List<Exercise>
             {
@@ -54,6 +53,5 @@ public static class DependencyInjection
             await dbContext.SaveChangesAsync();
         }
 
-        // Additional seeding logic for routines or other entities can be added here
     }
 }
