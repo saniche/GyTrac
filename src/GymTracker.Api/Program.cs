@@ -1,6 +1,7 @@
 using System.Text;
 using GymTracker.Api.Middleware;
 using GymTracker.Common.Extensions;
+using GymTracker.Infrastructure;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 
@@ -57,7 +58,12 @@ builder.Services.AddSwaggerGen(c =>
     });
 });
 
+builder.Services.AddInfrastructure(builder.Configuration);
+
 var app = builder.Build();
+
+app.Services.InitializeDatabaseAsync().GetAwaiter().GetResult();
+app.Services.SeedDatabaseAsync().GetAwaiter().GetResult();
 
 app.UseMiddleware<ExceptionMiddleware>();
 
