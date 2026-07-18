@@ -2,6 +2,9 @@ using GymTracker.Domain.ValueObjects;
 
 namespace GymTracker.Domain.Entities;
 
+/// <summary>
+/// Represents a log of an exercise performed during a workout session.
+/// </summary>S
 public class ExerciseLog
 {
     public Guid Id { get; private set; }
@@ -17,9 +20,9 @@ public class ExerciseLog
 
     private ExerciseLog() { }
 
-    internal ExerciseLog(Guid id, Guid workoutSessionId, Guid exerciseId, int order)
+    internal ExerciseLog(Guid workoutSessionId, Guid exerciseId, int order)
     {
-        Id = id;
+        Id = Guid.Empty;
         WorkoutSessionId = workoutSessionId;
         ExerciseId = exerciseId;
         Order = order;
@@ -27,21 +30,21 @@ public class ExerciseLog
 
     public void AddWeightSet(Weight weight, int reps, bool isWarmup = false, string? notes = null)
     {
-        _sets.Add(new WeightSet(Guid.Empty, Id, weight, reps, _sets.Count + 1, isWarmup, notes));
+        _sets.Add(new WeightSet(Id, weight, reps, _sets.Count + 1, isWarmup, notes));
     }
 
     public void AddDistanceSet(Distance distance, bool isWarmup = false, string? notes = null)
     {
-        _sets.Add(new DistanceSet(Guid.Empty, Id, distance, _sets.Count + 1, isWarmup, notes));
+        _sets.Add(new DistanceSet(Id, distance, _sets.Count + 1, isWarmup, notes));
     }
 
     public void AddDurationSet(Duration duration, bool isWarmup = false, string? notes = null)
     {
-        _sets.Add(new DurationSet(Guid.Empty, Id, duration, _sets.Count + 1, isWarmup, notes));
+        _sets.Add(new DurationSet(Id, duration, _sets.Count + 1, isWarmup, notes));
     }
 
     public void AddDistanceDurationSet(Distance distance, Duration duration, bool isWarmup = false, string? notes = null)
     {
-        _sets.Add(new DistanceDurationSet(Guid.Empty, Id, distance, duration, _sets.Count + 1, isWarmup, notes));
+        _sets.Add(new DistanceDurationSet(Id, distance, duration, _sets.Count + 1, isWarmup, notes));
     }
 }
