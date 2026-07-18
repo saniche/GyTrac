@@ -27,7 +27,7 @@ public class WorkoutSession
 
     public ExerciseLog AddExerciseLog(Guid exerciseId, int order)
     {
-        var log = new ExerciseLog(Guid.NewGuid(), Id, exerciseId, order);
+        var log = new ExerciseLog(Id, exerciseId, order);
         _exerciseLogs.Add(log);
         return log;
     }

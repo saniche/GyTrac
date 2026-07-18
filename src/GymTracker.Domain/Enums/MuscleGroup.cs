@@ -12,6 +12,7 @@ public enum MuscleGroup
     Core,
     Calves,
     Glutes,
+    FullBody,
 }
 
 public static class MuscleGroupExtensions
@@ -30,6 +31,7 @@ public static class MuscleGroupExtensions
             MuscleGroup.Core => "Core",
             MuscleGroup.Calves => "Calves",
             MuscleGroup.Glutes => "Glutes",
+            MuscleGroup.FullBody => "Full Body",
             _ => throw new ArgumentOutOfRangeException(nameof(muscleGroup), muscleGroup, null)
         };
     }

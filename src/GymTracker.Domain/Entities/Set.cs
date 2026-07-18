@@ -1,5 +1,8 @@
 namespace GymTracker.Domain.Entities;
 
+/// <summary>
+/// Represents a set of an exercise that can be performed in a workout.
+/// </summary>
 public abstract class Set
 {
     public Guid Id { get; private set; }
@@ -10,9 +13,9 @@ public abstract class Set
 
     protected Set() { }
 
-    protected Set(Guid id, Guid exerciseLogId, int order, bool isWarmup, string? notes)
+    protected Set(Guid exerciseLogId, int order, bool isWarmup, string? notes)
     {
-        Id = id;
+        Id = Guid.Empty;
         ExerciseLogId = exerciseLogId;
         Order = order;
         IsWarmup = isWarmup;

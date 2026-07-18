@@ -2,6 +2,9 @@ using GymTracker.Domain.Enums;
 
 namespace GymTracker.Domain.Entities;
 
+/// <summary>
+/// Represents an exercise that can be performed in a workout.
+/// </summary>
 public class Exercise
 {
     public Guid Id { get; private set; }
@@ -12,9 +15,9 @@ public class Exercise
 
     private Exercise() { }
 
-    public Exercise(Guid id, string name, MuscleGroup primaryMuscleGroup, ExerciseType type, string? description = null)
+    public Exercise(string name, MuscleGroup primaryMuscleGroup, ExerciseType type, string? description = null)
     {
-        Id = id;
+        Id = Guid.Empty;
         Name = name;
         PrimaryMuscleGroup = primaryMuscleGroup;
         Type = type;

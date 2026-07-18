@@ -27,21 +27,21 @@ public class ExerciseLog
 
     public void AddWeightSet(Weight weight, int reps, bool isWarmup = false, string? notes = null)
     {
-        _sets.Add(new WeightSet(Guid.NewGuid(), Id, weight, reps, _sets.Count + 1, isWarmup, notes));
+        _sets.Add(new WeightSet(Guid.Empty, Id, weight, reps, _sets.Count + 1, isWarmup, notes));
     }
 
     public void AddDistanceSet(Distance distance, bool isWarmup = false, string? notes = null)
     {
-        _sets.Add(new DistanceSet(Guid.NewGuid(), Id, distance, _sets.Count + 1, isWarmup, notes));
+        _sets.Add(new DistanceSet(Guid.Empty, Id, distance, _sets.Count + 1, isWarmup, notes));
     }
 
     public void AddDurationSet(Duration duration, bool isWarmup = false, string? notes = null)
     {
-        _sets.Add(new DurationSet(Guid.NewGuid(), Id, duration, _sets.Count + 1, isWarmup, notes));
+        _sets.Add(new DurationSet(Guid.Empty, Id, duration, _sets.Count + 1, isWarmup, notes));
     }
 
     public void AddDistanceDurationSet(Distance distance, Duration duration, bool isWarmup = false, string? notes = null)
     {
-        _sets.Add(new DistanceDurationSet(Guid.NewGuid(), Id, distance, duration, _sets.Count + 1, isWarmup, notes));
+        _sets.Add(new DistanceDurationSet(Guid.Empty, Id, distance, duration, _sets.Count + 1, isWarmup, notes));
     }
 }
