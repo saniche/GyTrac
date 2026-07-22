@@ -4,7 +4,7 @@ namespace GymTracker.Domain.Entities;
 
 /// <summary>
 /// Represents a log of an exercise performed during a workout session.
-/// </summary>S
+/// </summary>
 public class ExerciseLog
 {
     public Guid Id { get; private set; }

@@ -62,13 +62,12 @@ builder.Services.AddInfrastructure(builder.Configuration);
 
 var app = builder.Build();
 
-app.Services.InitializeDatabaseAsync().GetAwaiter().GetResult();
-app.Services.SeedDatabaseAsync().GetAwaiter().GetResult();
-
 app.UseMiddleware<ExceptionMiddleware>();
 
 if (app.Environment.IsDevelopment())
 {
+    await app.CreateAndSeedDatabaseAsync<GyTracDbContext>((db, sp) => sp.SeedDatabaseAsync());
+
     app.UseSwagger();
     app.UseSwaggerUI();
 }

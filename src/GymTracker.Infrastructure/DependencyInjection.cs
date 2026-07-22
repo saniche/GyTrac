@@ -1,10 +1,12 @@
-namespace GymTracker.Infrastructure;
 
 using GymTracker.Domain.Entities;
 using GymTracker.Domain.Enums;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+
+namespace GymTracker.Infrastructure;
+
 
 /// <summary>
 /// Provides extension methods for configuring and initializing the infrastructure layer of the application.
@@ -17,13 +19,6 @@ public static class DependencyInjection
             options.UseNpgsql(configuration.GetConnectionString("DefaultConnection")));
 
         return services;
-    }
-
-    public static Task InitializeDatabaseAsync(this IServiceProvider serviceProvider)
-    {
-        using var scope = serviceProvider.CreateScope();
-        var dbContext = scope.ServiceProvider.GetRequiredService<GyTracDbContext>();
-        return dbContext.Database.EnsureCreatedAsync();
     }
 
     public static async Task SeedDatabaseAsync(this IServiceProvider serviceProvider)

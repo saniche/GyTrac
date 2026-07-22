@@ -8,10 +8,7 @@ public class DistanceDurationSetConfiguration : IEntityTypeConfiguration<Distanc
 {
     public void Configure(EntityTypeBuilder<DistanceDurationSet> builder)
     {
-        builder.HasKey(ds => ds.Id);
-        builder.Property(ds => ds.Id)
-               .ValueGeneratedOnAdd()
-               .HasDefaultValueSql("gen_random_uuid()");
+        builder.ToTable("DistanceDurationSets");
         builder.OwnsOne(ds => ds.Distance, d =>
         {
             d.Property(x => x.Value).HasColumnName("DistanceValue").IsRequired();
@@ -23,9 +20,5 @@ public class DistanceDurationSetConfiguration : IEntityTypeConfiguration<Distanc
             d.Property(x => x.Value).HasColumnName("DurationValue").IsRequired();
             d.Property(x => x.Unit).HasConversion<string>().HasColumnName("DurationUnit").IsRequired();
         });
-
-        builder.Property(ds => ds.Order).IsRequired();
-        builder.Property(ds => ds.IsWarmup).IsRequired();
-        builder.Property(ds => ds.Notes);
     }
 }
