@@ -4,6 +4,9 @@
   <Project Path="GymTracker.Application\GymTracker.Application.csproj" />
   <Project Path="GymTracker.Identity\GymTracker.Identity.csproj" />
   <Project Path="GymTracker.Infrastructure\GymTracker.Infrastructure.csproj" />
+  <Folder Name="/tests/">
+    <Project Path="tests/GymTracker.Infrastructure.Tests/GymTracker.Infrastructure.Tests.csproj" />
+  </Folder>
   <Project Path="GymTracker.Api\GymTracker.Api.csproj" />
   <Project Path="GymTracker.Shared.Contracts\GymTracker.Shared.Contracts.csproj" />
   <Project Path="GymTracker.Shared.HttpClient\GymTracker.Shared.HttpClient.csproj" />
