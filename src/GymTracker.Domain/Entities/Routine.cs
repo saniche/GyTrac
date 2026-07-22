@@ -1,5 +1,8 @@
 namespace GymTracker.Domain.Entities;
 
+/// <summary>
+/// Represents a workout routine that a user can follow, consisting of a collection of exercises.
+/// </summary>
 public class Routine
 {
     public Guid Id { get; private set; }
@@ -23,24 +26,5 @@ public class Routine
     public void AddExercise(Guid exerciseId, int order)
     {
         _exercises.Add(new RoutineExercise(Id, exerciseId, order));
-    }
-}
-
-public class RoutineExercise
-{
-    public Guid RoutineId { get; private set; }
-    public Guid ExerciseId { get; private set; }
-    public int Order { get; private set; }
-
-    public Routine Routine { get; private set; } = null!;
-    public Exercise Exercise { get; private set; } = null!;
-
-    private RoutineExercise() { }
-
-    internal RoutineExercise(Guid routineId, Guid exerciseId, int order)
-    {
-        RoutineId = routineId;
-        ExerciseId = exerciseId;
-        Order = order;
     }
 }

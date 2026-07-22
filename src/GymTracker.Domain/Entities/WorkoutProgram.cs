@@ -1,5 +1,8 @@
 namespace GymTracker.Domain.Entities;
 
+/// <summary>
+/// Represents a workout program that can contain multiple routines.
+/// </summary>
 public class WorkoutProgram
 {
     public Guid Id { get; private set; }
@@ -12,9 +15,9 @@ public class WorkoutProgram
 
     private WorkoutProgram() { }
 
-    public WorkoutProgram(Guid id, Guid userId, string name, string? description = null)
+    public WorkoutProgram(Guid userId, string name, string? description = null)
     {
-        Id = id;
+        Id = Guid.Empty;
         UserId = userId;
         Name = name;
         Description = description;
