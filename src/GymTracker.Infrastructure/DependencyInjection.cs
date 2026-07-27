@@ -1,4 +1,6 @@
 
+using System.Reflection;
+using System.Text.Json;
 using GymTracker.Domain.Entities;
 using GymTracker.Domain.Enums;
 using Microsoft.EntityFrameworkCore;
@@ -11,8 +13,10 @@ namespace GymTracker.Infrastructure;
 /// <summary>
 /// Provides extension methods for configuring and initializing the infrastructure layer of the application.
 /// </summary>
-public static class DependencyInjection
+public static partial class DependencyInjection
 {
+    private const string ExercisesResourceName = "GymTracker.Infrastructure.Resources.exercises.json";
+
     public static IServiceCollection AddInfrastructure(this IServiceCollection services, IConfiguration configuration)
     {
         services.AddDbContext<GyTracDbContext>(options =>
@@ -28,25 +32,33 @@ public static class DependencyInjection
 
         if (!await dbContext.Exercises.AnyAsync())
         {
-            // Chest, Back, Legs, Shoulders, Arms, Core
-            var defaultExercises = new List<Exercise>
-            {
-                new("Bench Press", MuscleGroup.Chest, ExerciseType.Strength),
-                new("Pull-Up", MuscleGroup.Back, ExerciseType.Strength),
-                new("Squat", MuscleGroup.Legs, ExerciseType.Strength),
-                new("Shoulder Press", MuscleGroup.Shoulders, ExerciseType.Strength),
-                new("Bicep Curl", MuscleGroup.Biceps, ExerciseType.Strength),
-                new("Tricep Extension", MuscleGroup.Triceps, ExerciseType.Strength),
-                new("Plank", MuscleGroup.Core, ExerciseType.Strength),
-                new("Running", MuscleGroup.Legs, ExerciseType.Cardio),
-                new("Cycling", MuscleGroup.Legs, ExerciseType.Cardio),
-                new("Swimming", MuscleGroup.FullBody, ExerciseType.Cardio),
-            };
-
+            var defaultExercises = await LoadDefaultExercisesAsync();
 
             await dbContext.Exercises.AddRangeAsync(defaultExercises);
             await dbContext.SaveChangesAsync();
         }
 
+    }
+
+    private static async Task<List<Exercise>> LoadDefaultExercisesAsync()
+    {
+        using var stream = Assembly.GetExecutingAssembly().GetManifestResourceStream(ExercisesResourceName)
+            ?? throw new InvalidOperationException($"Embedded resource '{ExercisesResourceName}' was not found.");
+
+        var exerciseSeeds = await JsonSerializer.DeserializeAsync<List<ExerciseSeed>>(stream)
+            ?? throw new InvalidOperationException("Exercise seed data could not be read.");
+
+        return exerciseSeeds.Select(ExerciseSeedToExercise).ToList();
+    }
+
+    private static Exercise ExerciseSeedToExercise(ExerciseSeed seed)
+    {
+        return new Exercise(
+            seed.Name,
+            Enum.TryParse<MuscleGroup>(seed.PrimaryMuscleGroup, ignoreCase: true, out var primaryMuscleGroup) ? primaryMuscleGroup
+                : throw new InvalidOperationException($"Invalid muscle group: {seed.PrimaryMuscleGroup} for exercise: {seed.Name}"),
+            Enum.TryParse<ExerciseType>(seed.Type, ignoreCase: true, out var exerciseType) ? exerciseType
+                : throw new InvalidOperationException($"Invalid exercise type: {seed.Type} for exercise: {seed.Name}"),
+            seed.Description);
     }
 }

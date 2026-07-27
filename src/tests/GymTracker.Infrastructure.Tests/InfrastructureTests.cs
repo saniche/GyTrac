@@ -1,7 +1,9 @@
+using System.Text.Json;
 using GymTracker.Domain.Entities;
 using GymTracker.Infrastructure.Persistence.Converters;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Storage;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
@@ -80,6 +82,32 @@ public class InfrastructureTests
         Assert.Equal("Npgsql.EntityFrameworkCore.PostgreSQL", dbContext.Database.ProviderName);
     }
 
+    [Fact]
+    public async Task SeedDatabaseAsync_populates_default_exercises_from_json()
+    {
+        var services = new ServiceCollection();
+        var databaseRoot = new InMemoryDatabaseRoot();
+        var databaseName = $"SeedTests_{Guid.NewGuid():N}";
+
+        services.AddSingleton(databaseRoot);
+        services.AddDbContext<GyTracDbContext>((sp, options) =>
+            options.UseInMemoryDatabase(databaseName, sp.GetRequiredService<InMemoryDatabaseRoot>()));
+
+        using var serviceProvider = services.BuildServiceProvider();
+
+        await serviceProvider.SeedDatabaseAsync();
+
+        using var scope = serviceProvider.CreateScope();
+        var dbContext = scope.ServiceProvider.GetRequiredService<GyTracDbContext>();
+
+        var seededExercises = await dbContext.Exercises.AsNoTracking().ToListAsync();
+        var expectedCount = await GetExerciseSeedCountAsync();
+
+        Assert.Equal(expectedCount, seededExercises.Count);
+        Assert.Contains(seededExercises, exercise => exercise.Name == "Bench Press");
+        Assert.Contains(seededExercises, exercise => exercise.Name == "Stationary Bike");
+    }
+
     private static GyTracDbContext CreateContext()
     {
         var options = new DbContextOptionsBuilder<GyTracDbContext>()
@@ -87,5 +115,15 @@ public class InfrastructureTests
             .Options;
 
         return new GyTracDbContext(options);
+    }
+
+    private static async Task<int> GetExerciseSeedCountAsync()
+    {
+        using var stream = typeof(DependencyInjection).Assembly.GetManifestResourceStream("GymTracker.Infrastructure.Resources.exercises.json")
+            ?? throw new InvalidOperationException("Embedded exercise seed data was not found.");
+
+        using var document = await JsonDocument.ParseAsync(stream);
+
+        return document.RootElement.GetArrayLength();
     }
 }
