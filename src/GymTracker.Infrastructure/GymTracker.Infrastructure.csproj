@@ -20,4 +20,8 @@
     <ProjectReference Include="..\GymTracker.Common\GymTracker.Common.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <EmbeddedResource Include="..\Resources\exercises.json" Link="Resources\exercises.json" />
+  </ItemGroup>
+
 </Project>

@@ -1,0 +1,2264 @@
+[
+  {
+    "name": "Assisted Dip",
+    "description": "A bodyweight exercise that primarily targets the chest.",
+    "primaryMuscleGroup": "Chest",
+    "type": "Bodyweight"
+  },
+  {
+    "name": "Band-Assisted Bench Press",
+    "description": "An exercise performed with a resistance band that primarily targets the chest.",
+    "primaryMuscleGroup": "Chest",
+    "type": "Compound"
+  },
+  {
+    "name": "Bar Dip",
+    "description": "A bodyweight exercise that primarily targets the chest.",
+    "primaryMuscleGroup": "Chest",
+    "type": "Bodyweight"
+  },
+  {
+    "name": "Bench Press",
+    "description": "An exercise performed with a barbell that primarily targets the chest.",
+    "primaryMuscleGroup": "Chest",
+    "type": "Compound"
+  },
+  {
+    "name": "Bench Press Against Band",
+    "description": "An exercise performed with a resistance band that primarily targets the chest.",
+    "primaryMuscleGroup": "Chest",
+    "type": "Compound"
+  },
+  {
+    "name": "Board Press",
+    "description": "An exercise performed with a barbell that primarily targets the chest.",
+    "primaryMuscleGroup": "Chest",
+    "type": "Compound"
+  },
+  {
+    "name": "Cable Chest Press",
+    "description": "An exercise performed with a cable machine that primarily targets the chest.",
+    "primaryMuscleGroup": "Chest",
+    "type": "Compound"
+  },
+  {
+    "name": "Clap Push-Up",
+    "description": "A bodyweight exercise that primarily targets the chest.",
+    "primaryMuscleGroup": "Chest",
+    "type": "Bodyweight"
+  },
+  {
+    "name": "Close-Grip Bench Press",
+    "description": "An exercise performed with a barbell that primarily targets the chest.",
+    "primaryMuscleGroup": "Chest",
+    "type": "Compound"
+  },
+  {
+    "name": "Close-Grip Feet-Up Bench Press",
+    "description": "An exercise performed with a barbell that primarily targets the chest.",
+    "primaryMuscleGroup": "Chest",
+    "type": "Compound"
+  },
+  {
+    "name": "Cobra Push-Up",
+    "description": "A bodyweight exercise that primarily targets the chest.",
+    "primaryMuscleGroup": "Chest",
+    "type": "Bodyweight"
+  },
+  {
+    "name": "Decline Bench Press",
+    "description": "An exercise performed with a barbell that primarily targets the chest.",
+    "primaryMuscleGroup": "Chest",
+    "type": "Compound"
+  },
+  {
+    "name": "Decline Push-Up",
+    "description": "A bodyweight exercise that primarily targets the chest.",
+    "primaryMuscleGroup": "Chest",
+    "type": "Bodyweight"
+  },
+  {
+    "name": "Dumbbell Chest Fly",
+    "description": "An exercise performed with dumbbells that primarily targets the chest.",
+    "primaryMuscleGroup": "Chest",
+    "type": "Isolation"
+  },
+  {
+    "name": "Dumbbell Chest Press",
+    "description": "An exercise performed with dumbbells that primarily targets the chest.",
+    "primaryMuscleGroup": "Chest",
+    "type": "Compound"
+  },
+  {
+    "name": "Dumbbell Decline Chest Press",
+    "description": "An exercise performed with dumbbells that primarily targets the chest.",
+    "primaryMuscleGroup": "Chest",
+    "type": "Compound"
+  },
+  {
+    "name": "Dumbbell Floor Press",
+    "description": "An exercise performed with dumbbells that primarily targets the chest.",
+    "primaryMuscleGroup": "Chest",
+    "type": "Compound"
+  },
+  {
+    "name": "Dumbbell Pullover",
+    "description": "An exercise performed with dumbbells that primarily targets the chest.",
+    "primaryMuscleGroup": "Chest",
+    "type": "Isolation"
+  },
+  {
+    "name": "Feet-Up Bench Press",
+    "description": "An exercise performed with a barbell that primarily targets the chest.",
+    "primaryMuscleGroup": "Chest",
+    "type": "Compound"
+  },
+  {
+    "name": "Floor Press",
+    "description": "An exercise performed with a barbell that primarily targets the chest.",
+    "primaryMuscleGroup": "Chest",
+    "type": "Compound"
+  },
+  {
+    "name": "Incline Bench Press",
+    "description": "An exercise performed with a barbell that primarily targets the chest.",
+    "primaryMuscleGroup": "Chest",
+    "type": "Compound"
+  },
+  {
+    "name": "Incline Dumbbell Press",
+    "description": "An exercise performed with dumbbells that primarily targets the chest.",
+    "primaryMuscleGroup": "Chest",
+    "type": "Compound"
+  },
+  {
+    "name": "Incline Push-Up",
+    "description": "A bodyweight exercise that primarily targets the chest.",
+    "primaryMuscleGroup": "Chest",
+    "type": "Bodyweight"
+  },
+  {
+    "name": "Kettlebell Floor Press",
+    "description": "An exercise performed with a kettlebell that primarily targets the chest.",
+    "primaryMuscleGroup": "Chest",
+    "type": "Compound"
+  },
+  {
+    "name": "Kneeling Incline Push-Up",
+    "description": "A bodyweight exercise that primarily targets the chest.",
+    "primaryMuscleGroup": "Chest",
+    "type": "Bodyweight"
+  },
+  {
+    "name": "Kneeling Push-Up",
+    "description": "A bodyweight exercise that primarily targets the chest.",
+    "primaryMuscleGroup": "Chest",
+    "type": "Bodyweight"
+  },
+  {
+    "name": "Machine Chest Fly",
+    "description": "An exercise performed with a machine that primarily targets the chest.",
+    "primaryMuscleGroup": "Chest",
+    "type": "Machine"
+  },
+  {
+    "name": "Machine Chest Press",
+    "description": "An exercise performed with a machine that primarily targets the chest.",
+    "primaryMuscleGroup": "Chest",
+    "type": "Machine"
+  },
+  {
+    "name": "Medicine Ball Chest Pass",
+    "description": "An exercise performed with a medicine ball that primarily targets the chest.",
+    "primaryMuscleGroup": "Chest",
+    "type": "Isolation"
+  },
+  {
+    "name": "Pec Deck",
+    "description": "An exercise performed with a barbell that primarily targets the chest.",
+    "primaryMuscleGroup": "Chest",
+    "type": "Machine"
+  },
+  {
+    "name": "Pin Bench Press",
+    "description": "An exercise performed with a barbell that primarily targets the chest.",
+    "primaryMuscleGroup": "Chest",
+    "type": "Compound"
+  },
+  {
+    "name": "Plank to Push-Up",
+    "description": "A bodyweight exercise that primarily targets the chest.",
+    "primaryMuscleGroup": "Chest",
+    "type": "Isolation"
+  },
+  {
+    "name": "Push-Up",
+    "description": "A bodyweight exercise that primarily targets the chest.",
+    "primaryMuscleGroup": "Chest",
+    "type": "Bodyweight"
+  },
+  {
+    "name": "Push-Up Against Wall",
+    "description": "A bodyweight exercise that primarily targets the chest.",
+    "primaryMuscleGroup": "Chest",
+    "type": "Bodyweight"
+  },
+  {
+    "name": "Push-Ups With Feet in Rings",
+    "description": "An exercise performed with gymnastic rings that primarily targets the chest.",
+    "primaryMuscleGroup": "Chest",
+    "type": "Bodyweight"
+  },
+  {
+    "name": "Resistance Band Chest Fly",
+    "description": "An exercise performed with a resistance band that primarily targets the chest.",
+    "primaryMuscleGroup": "Chest",
+    "type": "Isolation"
+  },
+  {
+    "name": "Ring Dip",
+    "description": "A bodyweight exercise that primarily targets the chest.",
+    "primaryMuscleGroup": "Chest",
+    "type": "Bodyweight"
+  },
+  {
+    "name": "Seated Cable Chest Fly",
+    "description": "An exercise performed with a cable machine that primarily targets the chest.",
+    "primaryMuscleGroup": "Chest",
+    "type": "Isolation"
+  },
+  {
+    "name": "Smith Machine Bench Press",
+    "description": "An exercise performed with a Smith machine that primarily targets the chest.",
+    "primaryMuscleGroup": "Chest",
+    "type": "Machine"
+  },
+  {
+    "name": "Smith Machine Incline Bench Press",
+    "description": "An exercise performed with a Smith machine that primarily targets the chest.",
+    "primaryMuscleGroup": "Chest",
+    "type": "Machine"
+  },
+  {
+    "name": "Smith Machine Reverse Grip Bench Press",
+    "description": "An exercise performed with a Smith machine that primarily targets the chest.",
+    "primaryMuscleGroup": "Chest",
+    "type": "Machine"
+  },
+  {
+    "name": "Standing Cable Chest Fly",
+    "description": "An exercise performed with a cable machine that primarily targets the chest.",
+    "primaryMuscleGroup": "Chest",
+    "type": "Isolation"
+  },
+  {
+    "name": "Standing Resistance Band Chest Fly",
+    "description": "An exercise performed with a resistance band that primarily targets the chest.",
+    "primaryMuscleGroup": "Chest",
+    "type": "Isolation"
+  },
+  {
+    "name": "Arnold Press",
+    "description": "An exercise performed with a barbell that primarily targets the shoulders.",
+    "primaryMuscleGroup": "Shoulders",
+    "type": "Compound"
+  },
+  {
+    "name": "Band External Shoulder Rotation",
+    "description": "An exercise performed with a resistance band that primarily targets the shoulders.",
+    "primaryMuscleGroup": "Shoulders",
+    "type": "Isolation"
+  },
+  {
+    "name": "Band Internal Shoulder Rotation",
+    "description": "An exercise performed with a resistance band that primarily targets the shoulders.",
+    "primaryMuscleGroup": "Shoulders",
+    "type": "Isolation"
+  },
+  {
+    "name": "Band Pull-Apart",
+    "description": "An exercise performed with a resistance band that primarily targets the shoulders.",
+    "primaryMuscleGroup": "Shoulders",
+    "type": "Isolation"
+  },
+  {
+    "name": "Banded Face Pull",
+    "description": "An exercise performed with a resistance band that primarily targets the shoulders.",
+    "primaryMuscleGroup": "Shoulders",
+    "type": "Isolation"
+  },
+  {
+    "name": "Barbell Front Raise",
+    "description": "An exercise performed with a barbell that primarily targets the shoulders.",
+    "primaryMuscleGroup": "Shoulders",
+    "type": "Isolation"
+  },
+  {
+    "name": "Barbell Rear Delt Row",
+    "description": "An exercise performed with a barbell that primarily targets the shoulders.",
+    "primaryMuscleGroup": "Shoulders",
+    "type": "Compound"
+  },
+  {
+    "name": "Barbell Upright Row",
+    "description": "An exercise performed with a barbell that primarily targets the shoulders.",
+    "primaryMuscleGroup": "Shoulders",
+    "type": "Compound"
+  },
+  {
+    "name": "Behind the Neck Press",
+    "description": "An exercise performed with a barbell that primarily targets the shoulders.",
+    "primaryMuscleGroup": "Shoulders",
+    "type": "Compound"
+  },
+  {
+    "name": "Cable Internal Shoulder Rotation",
+    "description": "An exercise performed with a cable machine that primarily targets the shoulders.",
+    "primaryMuscleGroup": "Shoulders",
+    "type": "Isolation"
+  },
+  {
+    "name": "Cable External Shoulder Rotation",
+    "description": "An exercise performed with a cable machine that primarily targets the shoulders.",
+    "primaryMuscleGroup": "Shoulders",
+    "type": "Isolation"
+  },
+  {
+    "name": "Cable Front Raise",
+    "description": "An exercise performed with a cable machine that primarily targets the shoulders.",
+    "primaryMuscleGroup": "Shoulders",
+    "type": "Isolation"
+  },
+  {
+    "name": "Cable Lateral Raise",
+    "description": "An exercise performed with a cable machine that primarily targets the shoulders.",
+    "primaryMuscleGroup": "Shoulders",
+    "type": "Isolation"
+  },
+  {
+    "name": "Cable Rear Delt Row",
+    "description": "An exercise performed with a cable machine that primarily targets the shoulders.",
+    "primaryMuscleGroup": "Shoulders",
+    "type": "Compound"
+  },
+  {
+    "name": "Cuban Press",
+    "description": "An exercise performed with a barbell that primarily targets the shoulders.",
+    "primaryMuscleGroup": "Shoulders",
+    "type": "Compound"
+  },
+  {
+    "name": "Devils Press",
+    "description": "An exercise performed with a barbell that primarily targets the shoulders.",
+    "primaryMuscleGroup": "Shoulders",
+    "type": "Compound"
+  },
+  {
+    "name": "Dumbbell Front Raise",
+    "description": "An exercise performed with dumbbells that primarily targets the shoulders.",
+    "primaryMuscleGroup": "Shoulders",
+    "type": "Isolation"
+  },
+  {
+    "name": "Dumbbell Horizontal Internal Shoulder Rotation",
+    "description": "An exercise performed with dumbbells that primarily targets the shoulders.",
+    "primaryMuscleGroup": "Shoulders",
+    "type": "Isolation"
+  },
+  {
+    "name": "Dumbbell Horizontal External Shoulder Rotation",
+    "description": "An exercise performed with dumbbells that primarily targets the shoulders.",
+    "primaryMuscleGroup": "Shoulders",
+    "type": "Isolation"
+  },
+  {
+    "name": "Dumbbell Lateral Raise",
+    "description": "An exercise performed with dumbbells that primarily targets the shoulders.",
+    "primaryMuscleGroup": "Shoulders",
+    "type": "Isolation"
+  },
+  {
+    "name": "Dumbbell Rear Delt Row",
+    "description": "An exercise performed with dumbbells that primarily targets the shoulders.",
+    "primaryMuscleGroup": "Shoulders",
+    "type": "Compound"
+  },
+  {
+    "name": "Dumbbell Shoulder Press",
+    "description": "An exercise performed with dumbbells that primarily targets the shoulders.",
+    "primaryMuscleGroup": "Shoulders",
+    "type": "Compound"
+  },
+  {
+    "name": "Face Pull",
+    "description": "An exercise performed with a barbell that primarily targets the shoulders.",
+    "primaryMuscleGroup": "Shoulders",
+    "type": "Isolation"
+  },
+  {
+    "name": "Front Hold",
+    "description": "An exercise performed with a barbell that primarily targets the shoulders.",
+    "primaryMuscleGroup": "Shoulders",
+    "type": "Isolation"
+  },
+  {
+    "name": "Handstand Push-Up",
+    "description": "A bodyweight exercise that primarily targets the shoulders.",
+    "primaryMuscleGroup": "Shoulders",
+    "type": "Bodyweight"
+  },
+  {
+    "name": "Jerk",
+    "description": "An exercise performed with a barbell that primarily targets the shoulders.",
+    "primaryMuscleGroup": "Shoulders",
+    "type": "Compound"
+  },
+  {
+    "name": "Kettlebell Halo",
+    "description": "An exercise performed with a kettlebell that primarily targets the shoulders.",
+    "primaryMuscleGroup": "Shoulders",
+    "type": "Isolation"
+  },
+  {
+    "name": "Kettlebell Press",
+    "description": "An exercise performed with a kettlebell that primarily targets the shoulders.",
+    "primaryMuscleGroup": "Shoulders",
+    "type": "Compound"
+  },
+  {
+    "name": "Kettlebell Push Press",
+    "description": "An exercise performed with a kettlebell that primarily targets the shoulders.",
+    "primaryMuscleGroup": "Shoulders",
+    "type": "Compound"
+  },
+  {
+    "name": "Landmine Press",
+    "description": "An exercise performed with a landmine setup that primarily targets the shoulders.",
+    "primaryMuscleGroup": "Shoulders",
+    "type": "Compound"
+  },
+  {
+    "name": "Lying Dumbbell External Shoulder Rotation",
+    "description": "An exercise performed with dumbbells that primarily targets the shoulders.",
+    "primaryMuscleGroup": "Shoulders",
+    "type": "Isolation"
+  },
+  {
+    "name": "Lying Dumbbell Internal Shoulder Rotation",
+    "description": "An exercise performed with dumbbells that primarily targets the shoulders.",
+    "primaryMuscleGroup": "Shoulders",
+    "type": "Isolation"
+  },
+  {
+    "name": "Machine Lateral Raise",
+    "description": "An exercise performed with a machine that primarily targets the shoulders.",
+    "primaryMuscleGroup": "Shoulders",
+    "type": "Machine"
+  },
+  {
+    "name": "Machine Shoulder Press",
+    "description": "An exercise performed with a machine that primarily targets the shoulders.",
+    "primaryMuscleGroup": "Shoulders",
+    "type": "Machine"
+  },
+  {
+    "name": "Monkey Row",
+    "description": "An exercise performed with a barbell that primarily targets the shoulders.",
+    "primaryMuscleGroup": "Shoulders",
+    "type": "Compound"
+  },
+  {
+    "name": "One-Arm Landmine Press",
+    "description": "An exercise performed with a landmine setup that primarily targets the shoulders.",
+    "primaryMuscleGroup": "Shoulders",
+    "type": "Compound"
+  },
+  {
+    "name": "Overhead Press",
+    "description": "An exercise performed with a barbell that primarily targets the shoulders.",
+    "primaryMuscleGroup": "Shoulders",
+    "type": "Compound"
+  },
+  {
+    "name": "Plate Front Raise",
+    "description": "An exercise performed with a weight plate that primarily targets the shoulders.",
+    "primaryMuscleGroup": "Shoulders",
+    "type": "Isolation"
+  },
+  {
+    "name": "Poliquin Raise",
+    "description": "An exercise performed with a barbell that primarily targets the shoulders.",
+    "primaryMuscleGroup": "Shoulders",
+    "type": "Isolation"
+  },
+  {
+    "name": "Power Jerk",
+    "description": "An exercise performed with a barbell that primarily targets the shoulders.",
+    "primaryMuscleGroup": "Shoulders",
+    "type": "Compound"
+  },
+  {
+    "name": "Push Press",
+    "description": "An exercise performed with a barbell that primarily targets the shoulders.",
+    "primaryMuscleGroup": "Shoulders",
+    "type": "Compound"
+  },
+  {
+    "name": "Resistance Band Lateral Raise",
+    "description": "An exercise performed with a resistance band that primarily targets the shoulders.",
+    "primaryMuscleGroup": "Shoulders",
+    "type": "Isolation"
+  },
+  {
+    "name": "Reverse Cable Flyes",
+    "description": "An exercise performed with a cable machine that primarily targets the shoulders.",
+    "primaryMuscleGroup": "Shoulders",
+    "type": "Isolation"
+  },
+  {
+    "name": "Reverse Dumbbell Flyes",
+    "description": "An exercise performed with dumbbells that primarily targets the shoulders.",
+    "primaryMuscleGroup": "Shoulders",
+    "type": "Isolation"
+  },
+  {
+    "name": "Reverse Dumbbell Flyes on Incline Bench",
+    "description": "An exercise performed with dumbbells that primarily targets the shoulders.",
+    "primaryMuscleGroup": "Shoulders",
+    "type": "Isolation"
+  },
+  {
+    "name": "Reverse Machine Fly",
+    "description": "An exercise performed with a machine that primarily targets the shoulders.",
+    "primaryMuscleGroup": "Shoulders",
+    "type": "Machine"
+  },
+  {
+    "name": "Seated Dumbbell Shoulder Press",
+    "description": "An exercise performed with dumbbells that primarily targets the shoulders.",
+    "primaryMuscleGroup": "Shoulders",
+    "type": "Compound"
+  },
+  {
+    "name": "Seated Barbell Overhead Press",
+    "description": "An exercise performed with a barbell that primarily targets the shoulders.",
+    "primaryMuscleGroup": "Shoulders",
+    "type": "Compound"
+  },
+  {
+    "name": "Seated Kettlebell Press",
+    "description": "An exercise performed with a kettlebell that primarily targets the shoulders.",
+    "primaryMuscleGroup": "Shoulders",
+    "type": "Compound"
+  },
+  {
+    "name": "Seated Smith Machine Shoulder Press",
+    "description": "An exercise performed with a Smith machine that primarily targets the shoulders.",
+    "primaryMuscleGroup": "Shoulders",
+    "type": "Machine"
+  },
+  {
+    "name": "Smith Machine Landmine Press",
+    "description": "An exercise performed with a Smith machine that primarily targets the shoulders.",
+    "primaryMuscleGroup": "Shoulders",
+    "type": "Machine"
+  },
+  {
+    "name": "Snatch Grip Behind the Neck Press",
+    "description": "An exercise performed with a barbell that primarily targets the shoulders.",
+    "primaryMuscleGroup": "Shoulders",
+    "type": "Compound"
+  },
+  {
+    "name": "Squat Jerk",
+    "description": "An exercise performed with a barbell that primarily targets the shoulders.",
+    "primaryMuscleGroup": "Shoulders",
+    "type": "Compound"
+  },
+  {
+    "name": "Split Jerk",
+    "description": "An exercise performed with a barbell that primarily targets the shoulders.",
+    "primaryMuscleGroup": "Shoulders",
+    "type": "Compound"
+  },
+  {
+    "name": "Turkish Get-Up",
+    "description": "A bodyweight exercise that primarily targets the shoulders.",
+    "primaryMuscleGroup": "Shoulders",
+    "type": "Bodyweight"
+  },
+  {
+    "name": "Wall Walk",
+    "description": "A bodyweight exercise that primarily targets the shoulders.",
+    "primaryMuscleGroup": "Shoulders",
+    "type": "Bodyweight"
+  },
+  {
+    "name": "Z Press",
+    "description": "An exercise performed with a barbell that primarily targets the shoulders.",
+    "primaryMuscleGroup": "Shoulders",
+    "type": "Compound"
+  },
+  {
+    "name": "Barbell Curl",
+    "description": "An exercise performed with a barbell that primarily targets the biceps.",
+    "primaryMuscleGroup": "Biceps",
+    "type": "Isolation"
+  },
+  {
+    "name": "Barbell Preacher Curl",
+    "description": "An exercise performed with a barbell that primarily targets the biceps.",
+    "primaryMuscleGroup": "Biceps",
+    "type": "Isolation"
+  },
+  {
+    "name": "Bayesian Curl",
+    "description": "An exercise performed with a barbell that primarily targets the biceps.",
+    "primaryMuscleGroup": "Biceps",
+    "type": "Isolation"
+  },
+  {
+    "name": "Bodyweight Curl",
+    "description": "A bodyweight exercise that primarily targets the biceps.",
+    "primaryMuscleGroup": "Biceps",
+    "type": "Bodyweight"
+  },
+  {
+    "name": "Cable Crossover Bicep Curl",
+    "description": "An exercise performed with a cable machine that primarily targets the biceps.",
+    "primaryMuscleGroup": "Biceps",
+    "type": "Isolation"
+  },
+  {
+    "name": "Cable Curl With Bar",
+    "description": "An exercise performed with a cable machine that primarily targets the biceps.",
+    "primaryMuscleGroup": "Biceps",
+    "type": "Isolation"
+  },
+  {
+    "name": "Cable Curl With Rope",
+    "description": "An exercise performed with a cable machine that primarily targets the biceps.",
+    "primaryMuscleGroup": "Biceps",
+    "type": "Isolation"
+  },
+  {
+    "name": "Concentration Curl",
+    "description": "An exercise performed with a barbell that primarily targets the biceps.",
+    "primaryMuscleGroup": "Biceps",
+    "type": "Isolation"
+  },
+  {
+    "name": "Drag Curl",
+    "description": "An exercise performed with a barbell that primarily targets the biceps.",
+    "primaryMuscleGroup": "Biceps",
+    "type": "Isolation"
+  },
+  {
+    "name": "Dumbbell Curl",
+    "description": "An exercise performed with dumbbells that primarily targets the biceps.",
+    "primaryMuscleGroup": "Biceps",
+    "type": "Isolation"
+  },
+  {
+    "name": "Dumbbell Preacher Curl",
+    "description": "An exercise performed with dumbbells that primarily targets the biceps.",
+    "primaryMuscleGroup": "Biceps",
+    "type": "Isolation"
+  },
+  {
+    "name": "EZ Curl",
+    "description": "An exercise performed with an EZ bar that primarily targets the biceps.",
+    "primaryMuscleGroup": "Biceps",
+    "type": "Isolation"
+  },
+  {
+    "name": "Hammer Curl",
+    "description": "An exercise performed with a barbell that primarily targets the biceps.",
+    "primaryMuscleGroup": "Biceps",
+    "type": "Isolation"
+  },
+  {
+    "name": "Incline Dumbbell Curl",
+    "description": "An exercise performed with dumbbells that primarily targets the biceps.",
+    "primaryMuscleGroup": "Biceps",
+    "type": "Isolation"
+  },
+  {
+    "name": "Kettlebell Curl",
+    "description": "An exercise performed with a kettlebell that primarily targets the biceps.",
+    "primaryMuscleGroup": "Biceps",
+    "type": "Isolation"
+  },
+  {
+    "name": "Lying Bicep Cable Curl on Bench",
+    "description": "An exercise performed with a cable machine that primarily targets the biceps.",
+    "primaryMuscleGroup": "Biceps",
+    "type": "Isolation"
+  },
+  {
+    "name": "Lying Bicep Cable Curl on Floor",
+    "description": "An exercise performed with a cable machine that primarily targets the biceps.",
+    "primaryMuscleGroup": "Biceps",
+    "type": "Isolation"
+  },
+  {
+    "name": "Machine Bicep Curl",
+    "description": "An exercise performed with a machine that primarily targets the biceps.",
+    "primaryMuscleGroup": "Biceps",
+    "type": "Machine"
+  },
+  {
+    "name": "Overhead Cable Curl",
+    "description": "An exercise performed with a cable machine that primarily targets the biceps.",
+    "primaryMuscleGroup": "Biceps",
+    "type": "Isolation"
+  },
+  {
+    "name": "Reverse Barbell Curl",
+    "description": "An exercise performed with a barbell that primarily targets the biceps.",
+    "primaryMuscleGroup": "Biceps",
+    "type": "Isolation"
+  },
+  {
+    "name": "Reverse Dumbbell Curl",
+    "description": "An exercise performed with dumbbells that primarily targets the biceps.",
+    "primaryMuscleGroup": "Biceps",
+    "type": "Isolation"
+  },
+  {
+    "name": "Resistance Band Curl",
+    "description": "An exercise performed with a resistance band that primarily targets the biceps.",
+    "primaryMuscleGroup": "Biceps",
+    "type": "Isolation"
+  },
+  {
+    "name": "Spider Curl",
+    "description": "An exercise performed with a barbell that primarily targets the biceps.",
+    "primaryMuscleGroup": "Biceps",
+    "type": "Isolation"
+  },
+  {
+    "name": "Zottman Curl",
+    "description": "An exercise performed with a barbell that primarily targets the biceps.",
+    "primaryMuscleGroup": "Biceps",
+    "type": "Isolation"
+  },
+  {
+    "name": "Barbell Standing Triceps Extension",
+    "description": "An exercise performed with a barbell that primarily targets the triceps.",
+    "primaryMuscleGroup": "Triceps",
+    "type": "Isolation"
+  },
+  {
+    "name": "Barbell Incline Triceps Extension",
+    "description": "An exercise performed with a barbell that primarily targets the triceps.",
+    "primaryMuscleGroup": "Triceps",
+    "type": "Isolation"
+  },
+  {
+    "name": "Barbell Lying Triceps Extension",
+    "description": "An exercise performed with a barbell that primarily targets the triceps.",
+    "primaryMuscleGroup": "Triceps",
+    "type": "Isolation"
+  },
+  {
+    "name": "Bench Dip",
+    "description": "A bodyweight exercise that primarily targets the triceps.",
+    "primaryMuscleGroup": "Triceps",
+    "type": "Bodyweight"
+  },
+  {
+    "name": "Crossbody Cable Triceps Extension",
+    "description": "An exercise performed with a cable machine that primarily targets the triceps.",
+    "primaryMuscleGroup": "Triceps",
+    "type": "Isolation"
+  },
+  {
+    "name": "Close-Grip Push-Up",
+    "description": "A bodyweight exercise that primarily targets the triceps.",
+    "primaryMuscleGroup": "Triceps",
+    "type": "Bodyweight"
+  },
+  {
+    "name": "Dumbbell Lying Triceps Extension",
+    "description": "An exercise performed with dumbbells that primarily targets the triceps.",
+    "primaryMuscleGroup": "Triceps",
+    "type": "Isolation"
+  },
+  {
+    "name": "Dumbbell Standing Triceps Extension",
+    "description": "An exercise performed with dumbbells that primarily targets the triceps.",
+    "primaryMuscleGroup": "Triceps",
+    "type": "Isolation"
+  },
+  {
+    "name": "EZ Bar Lying Triceps Extension",
+    "description": "An exercise performed with an EZ bar that primarily targets the triceps.",
+    "primaryMuscleGroup": "Triceps",
+    "type": "Isolation"
+  },
+  {
+    "name": "Machine Overhead Triceps Extension",
+    "description": "An exercise performed with a machine that primarily targets the triceps.",
+    "primaryMuscleGroup": "Triceps",
+    "type": "Machine"
+  },
+  {
+    "name": "Overhead Cable Triceps Extension (Lower Position)",
+    "description": "An exercise performed with a cable machine that primarily targets the triceps.",
+    "primaryMuscleGroup": "Triceps",
+    "type": "Isolation"
+  },
+  {
+    "name": "Overhead Cable Triceps Extension (Upper Position)",
+    "description": "An exercise performed with a cable machine that primarily targets the triceps.",
+    "primaryMuscleGroup": "Triceps",
+    "type": "Isolation"
+  },
+  {
+    "name": "Smith Machine Skull Crushers",
+    "description": "An exercise performed with a Smith machine that primarily targets the triceps.",
+    "primaryMuscleGroup": "Triceps",
+    "type": "Machine"
+  },
+  {
+    "name": "Tate Press",
+    "description": "An exercise performed with a barbell that primarily targets the triceps.",
+    "primaryMuscleGroup": "Triceps",
+    "type": "Compound"
+  },
+  {
+    "name": "Tricep Bodyweight Extension",
+    "description": "A bodyweight exercise that primarily targets the triceps.",
+    "primaryMuscleGroup": "Triceps",
+    "type": "Bodyweight"
+  },
+  {
+    "name": "Tricep Pushdown With Bar",
+    "description": "An exercise performed with a barbell that primarily targets the triceps.",
+    "primaryMuscleGroup": "Triceps",
+    "type": "Isolation"
+  },
+  {
+    "name": "Tricep Pushdown With Rope",
+    "description": "An exercise performed with a barbell that primarily targets the triceps.",
+    "primaryMuscleGroup": "Triceps",
+    "type": "Isolation"
+  },
+  {
+    "name": "Air Squat",
+    "description": "A bodyweight exercise that primarily targets the legs.",
+    "primaryMuscleGroup": "Legs",
+    "type": "Bodyweight"
+  },
+  {
+    "name": "Banded Hip March",
+    "description": "An exercise performed with a resistance band that primarily targets the legs.",
+    "primaryMuscleGroup": "Legs",
+    "type": "Isolation"
+  },
+  {
+    "name": "Barbell Hack Squat",
+    "description": "An exercise performed with a barbell that primarily targets the legs.",
+    "primaryMuscleGroup": "Legs",
+    "type": "Compound"
+  },
+  {
+    "name": "Barbell Lunge",
+    "description": "An exercise performed with a barbell that primarily targets the legs.",
+    "primaryMuscleGroup": "Legs",
+    "type": "Compound"
+  },
+  {
+    "name": "Barbell Walking Lunge",
+    "description": "An exercise performed with a barbell that primarily targets the legs.",
+    "primaryMuscleGroup": "Legs",
+    "type": "Compound"
+  },
+  {
+    "name": "Belt Squat",
+    "description": "An exercise performed with a barbell that primarily targets the legs.",
+    "primaryMuscleGroup": "Legs",
+    "type": "Machine"
+  },
+  {
+    "name": "Body Weight Lunge",
+    "description": "A bodyweight exercise that primarily targets the legs.",
+    "primaryMuscleGroup": "Legs",
+    "type": "Bodyweight"
+  },
+  {
+    "name": "Bodyweight Leg Curl",
+    "description": "A bodyweight exercise that primarily targets the legs.",
+    "primaryMuscleGroup": "Legs",
+    "type": "Bodyweight"
+  },
+  {
+    "name": "Box Jump",
+    "description": "An exercise performed with a barbell that primarily targets the legs.",
+    "primaryMuscleGroup": "Legs",
+    "type": "Isolation"
+  },
+  {
+    "name": "Box Squat",
+    "description": "An exercise performed with a barbell that primarily targets the legs.",
+    "primaryMuscleGroup": "Legs",
+    "type": "Compound"
+  },
+  {
+    "name": "Bulgarian Split Squat",
+    "description": "An exercise performed with a barbell that primarily targets the legs.",
+    "primaryMuscleGroup": "Legs",
+    "type": "Compound"
+  },
+  {
+    "name": "Cable Machine Hip Adduction",
+    "description": "An exercise performed with a cable machine that primarily targets the legs.",
+    "primaryMuscleGroup": "Legs",
+    "type": "Machine"
+  },
+  {
+    "name": "Chair Squat",
+    "description": "A bodyweight exercise that primarily targets the legs.",
+    "primaryMuscleGroup": "Legs",
+    "type": "Bodyweight"
+  },
+  {
+    "name": "Curtsy Lunge",
+    "description": "An exercise performed with a barbell that primarily targets the legs.",
+    "primaryMuscleGroup": "Legs",
+    "type": "Compound"
+  },
+  {
+    "name": "Depth Jump",
+    "description": "An exercise performed with a barbell that primarily targets the legs.",
+    "primaryMuscleGroup": "Legs",
+    "type": "Isolation"
+  },
+  {
+    "name": "Dumbbell Lunge",
+    "description": "An exercise performed with dumbbells that primarily targets the legs.",
+    "primaryMuscleGroup": "Legs",
+    "type": "Compound"
+  },
+  {
+    "name": "Dumbbell Walking Lunge",
+    "description": "An exercise performed with dumbbells that primarily targets the legs.",
+    "primaryMuscleGroup": "Legs",
+    "type": "Compound"
+  },
+  {
+    "name": "Dumbbell Squat",
+    "description": "An exercise performed with dumbbells that primarily targets the legs.",
+    "primaryMuscleGroup": "Legs",
+    "type": "Compound"
+  },
+  {
+    "name": "Front Squat",
+    "description": "An exercise performed with a barbell that primarily targets the legs.",
+    "primaryMuscleGroup": "Legs",
+    "type": "Compound"
+  },
+  {
+    "name": "Glute Ham Raise",
+    "description": "An exercise performed with a barbell that primarily targets the legs.",
+    "primaryMuscleGroup": "Legs",
+    "type": "Isolation"
+  },
+  {
+    "name": "Goblet Squat",
+    "description": "An exercise performed with a barbell that primarily targets the legs.",
+    "primaryMuscleGroup": "Legs",
+    "type": "Compound"
+  },
+  {
+    "name": "Ground to Overhead",
+    "description": "An exercise performed with a barbell that primarily targets the legs.",
+    "primaryMuscleGroup": "Legs",
+    "type": "Isolation"
+  },
+  {
+    "name": "Hack Squat Machine",
+    "description": "An exercise performed with a machine that primarily targets the legs.",
+    "primaryMuscleGroup": "Legs",
+    "type": "Machine"
+  },
+  {
+    "name": "Half Air Squat",
+    "description": "A bodyweight exercise that primarily targets the legs.",
+    "primaryMuscleGroup": "Legs",
+    "type": "Bodyweight"
+  },
+  {
+    "name": "Heel Walk",
+    "description": "An exercise performed with a barbell that primarily targets the legs.",
+    "primaryMuscleGroup": "Legs",
+    "type": "Isolation"
+  },
+  {
+    "name": "Hip Adduction Against Band",
+    "description": "An exercise performed with a resistance band that primarily targets the legs.",
+    "primaryMuscleGroup": "Legs",
+    "type": "Isolation"
+  },
+  {
+    "name": "Hip Adduction Machine",
+    "description": "An exercise performed with a machine that primarily targets the legs.",
+    "primaryMuscleGroup": "Legs",
+    "type": "Machine"
+  },
+  {
+    "name": "Jump Squat",
+    "description": "An exercise performed with a barbell that primarily targets the legs.",
+    "primaryMuscleGroup": "Legs",
+    "type": "Compound"
+  },
+  {
+    "name": "Jumping Lunge",
+    "description": "An exercise performed with a barbell that primarily targets the legs.",
+    "primaryMuscleGroup": "Legs",
+    "type": "Compound"
+  },
+  {
+    "name": "Kettlebell Front Squat",
+    "description": "An exercise performed with a kettlebell that primarily targets the legs.",
+    "primaryMuscleGroup": "Legs",
+    "type": "Compound"
+  },
+  {
+    "name": "Kettlebell Thrusters",
+    "description": "An exercise performed with a kettlebell that primarily targets the legs.",
+    "primaryMuscleGroup": "Legs",
+    "type": "Compound"
+  },
+  {
+    "name": "Kettlebell Tibialis Raise",
+    "description": "An exercise performed with a kettlebell that primarily targets the legs.",
+    "primaryMuscleGroup": "Legs",
+    "type": "Isolation"
+  },
+  {
+    "name": "Landmine Hack Squat",
+    "description": "An exercise performed with a landmine setup that primarily targets the legs.",
+    "primaryMuscleGroup": "Legs",
+    "type": "Compound"
+  },
+  {
+    "name": "Landmine Squat",
+    "description": "An exercise performed with a landmine setup that primarily targets the legs.",
+    "primaryMuscleGroup": "Legs",
+    "type": "Compound"
+  },
+  {
+    "name": "Lateral Bound",
+    "description": "An exercise performed with a barbell that primarily targets the legs.",
+    "primaryMuscleGroup": "Legs",
+    "type": "Isolation"
+  },
+  {
+    "name": "Leg Curl On Ball",
+    "description": "An exercise performed with a barbell that primarily targets the legs.",
+    "primaryMuscleGroup": "Legs",
+    "type": "Isolation"
+  },
+  {
+    "name": "Leg Extension",
+    "description": "An exercise performed with a barbell that primarily targets the legs.",
+    "primaryMuscleGroup": "Legs",
+    "type": "Isolation"
+  },
+  {
+    "name": "Leg Press",
+    "description": "An exercise performed with a barbell that primarily targets the legs.",
+    "primaryMuscleGroup": "Legs",
+    "type": "Machine"
+  },
+  {
+    "name": "Lying Leg Curl",
+    "description": "An exercise performed with a barbell that primarily targets the legs.",
+    "primaryMuscleGroup": "Legs",
+    "type": "Isolation"
+  },
+  {
+    "name": "Nordic Hamstring Eccentric",
+    "description": "An exercise performed with a barbell that primarily targets the legs.",
+    "primaryMuscleGroup": "Legs",
+    "type": "Isolation"
+  },
+  {
+    "name": "One-Legged Leg Extension",
+    "description": "An exercise performed with a barbell that primarily targets the legs.",
+    "primaryMuscleGroup": "Legs",
+    "type": "Isolation"
+  },
+  {
+    "name": "One-Legged Lying Leg Curl",
+    "description": "An exercise performed with a barbell that primarily targets the legs.",
+    "primaryMuscleGroup": "Legs",
+    "type": "Isolation"
+  },
+  {
+    "name": "One-Legged Seated Leg Curl",
+    "description": "An exercise performed with a barbell that primarily targets the legs.",
+    "primaryMuscleGroup": "Legs",
+    "type": "Isolation"
+  },
+  {
+    "name": "Pause Squat",
+    "description": "An exercise performed with a barbell that primarily targets the legs.",
+    "primaryMuscleGroup": "Legs",
+    "type": "Compound"
+  },
+  {
+    "name": "Pendulum Squat",
+    "description": "An exercise performed with a barbell that primarily targets the legs.",
+    "primaryMuscleGroup": "Legs",
+    "type": "Compound"
+  },
+  {
+    "name": "Pin Squat",
+    "description": "An exercise performed with a barbell that primarily targets the legs.",
+    "primaryMuscleGroup": "Legs",
+    "type": "Compound"
+  },
+  {
+    "name": "Pistol Squat",
+    "description": "An exercise performed with a barbell that primarily targets the legs.",
+    "primaryMuscleGroup": "Legs",
+    "type": "Compound"
+  },
+  {
+    "name": "Poliquin Step-Up",
+    "description": "An exercise performed with a barbell that primarily targets the legs.",
+    "primaryMuscleGroup": "Legs",
+    "type": "Isolation"
+  },
+  {
+    "name": "Prisoner Get Up",
+    "description": "A bodyweight exercise that primarily targets the legs.",
+    "primaryMuscleGroup": "Legs",
+    "type": "Bodyweight"
+  },
+  {
+    "name": "Reverse Barbell Lunge",
+    "description": "An exercise performed with a barbell that primarily targets the legs.",
+    "primaryMuscleGroup": "Legs",
+    "type": "Compound"
+  },
+  {
+    "name": "Reverse Body Weight Lunge",
+    "description": "A bodyweight exercise that primarily targets the legs.",
+    "primaryMuscleGroup": "Legs",
+    "type": "Bodyweight"
+  },
+  {
+    "name": "Reverse Dumbbell Lunge",
+    "description": "An exercise performed with dumbbells that primarily targets the legs.",
+    "primaryMuscleGroup": "Legs",
+    "type": "Compound"
+  },
+  {
+    "name": "Reverse Nordic",
+    "description": "An exercise performed with a barbell that primarily targets the legs.",
+    "primaryMuscleGroup": "Legs",
+    "type": "Isolation"
+  },
+  {
+    "name": "Romanian Deadlift",
+    "description": "An exercise performed with a barbell that primarily targets the legs.",
+    "primaryMuscleGroup": "Legs",
+    "type": "Compound"
+  },
+  {
+    "name": "Safety Bar Squat",
+    "description": "An exercise performed with a barbell that primarily targets the legs.",
+    "primaryMuscleGroup": "Legs",
+    "type": "Compound"
+  },
+  {
+    "name": "Seated Leg Curl",
+    "description": "An exercise performed with a barbell that primarily targets the legs.",
+    "primaryMuscleGroup": "Legs",
+    "type": "Isolation"
+  },
+  {
+    "name": "Shallow Body Weight Lunge",
+    "description": "A bodyweight exercise that primarily targets the legs.",
+    "primaryMuscleGroup": "Legs",
+    "type": "Bodyweight"
+  },
+  {
+    "name": "Side Lunges (Bodyweight)",
+    "description": "A bodyweight exercise that primarily targets the legs.",
+    "primaryMuscleGroup": "Legs",
+    "type": "Bodyweight"
+  },
+  {
+    "name": "Smith Machine Bulgarian Split Squat",
+    "description": "An exercise performed with a Smith machine that primarily targets the legs.",
+    "primaryMuscleGroup": "Legs",
+    "type": "Machine"
+  },
+  {
+    "name": "Smith Machine Front Squat",
+    "description": "An exercise performed with a Smith machine that primarily targets the legs.",
+    "primaryMuscleGroup": "Legs",
+    "type": "Machine"
+  },
+  {
+    "name": "Smith Machine Lunge",
+    "description": "An exercise performed with a Smith machine that primarily targets the legs.",
+    "primaryMuscleGroup": "Legs",
+    "type": "Machine"
+  },
+  {
+    "name": "Smith Machine Romanian Deadlift",
+    "description": "An exercise performed with a Smith machine that primarily targets the legs.",
+    "primaryMuscleGroup": "Legs",
+    "type": "Machine"
+  },
+  {
+    "name": "Smith Machine Squat",
+    "description": "An exercise performed with a Smith machine that primarily targets the legs.",
+    "primaryMuscleGroup": "Legs",
+    "type": "Machine"
+  },
+  {
+    "name": "Sumo Squat",
+    "description": "An exercise performed with a barbell that primarily targets the legs.",
+    "primaryMuscleGroup": "Legs",
+    "type": "Compound"
+  },
+  {
+    "name": "Squat",
+    "description": "An exercise performed with a barbell that primarily targets the legs.",
+    "primaryMuscleGroup": "Legs",
+    "type": "Compound"
+  },
+  {
+    "name": "Standing Cable Leg Extension",
+    "description": "An exercise performed with a cable machine that primarily targets the legs.",
+    "primaryMuscleGroup": "Legs",
+    "type": "Isolation"
+  },
+  {
+    "name": "Standing Hip Flexor Raise",
+    "description": "An exercise performed with a barbell that primarily targets the legs.",
+    "primaryMuscleGroup": "Legs",
+    "type": "Isolation"
+  },
+  {
+    "name": "Standing Leg Curl",
+    "description": "An exercise performed with a barbell that primarily targets the legs.",
+    "primaryMuscleGroup": "Legs",
+    "type": "Isolation"
+  },
+  {
+    "name": "Step Up",
+    "description": "A bodyweight exercise that primarily targets the legs.",
+    "primaryMuscleGroup": "Legs",
+    "type": "Bodyweight"
+  },
+  {
+    "name": "Tibialis Band Pull",
+    "description": "An exercise performed with a resistance band that primarily targets the legs.",
+    "primaryMuscleGroup": "Legs",
+    "type": "Isolation"
+  },
+  {
+    "name": "Tibialis Raise",
+    "description": "An exercise performed with a barbell that primarily targets the legs.",
+    "primaryMuscleGroup": "Legs",
+    "type": "Isolation"
+  },
+  {
+    "name": "Vertical Leg Press",
+    "description": "An exercise performed with a barbell that primarily targets the legs.",
+    "primaryMuscleGroup": "Legs",
+    "type": "Machine"
+  },
+  {
+    "name": "Zercher Squat",
+    "description": "An exercise performed with a barbell that primarily targets the legs.",
+    "primaryMuscleGroup": "Legs",
+    "type": "Compound"
+  },
+  {
+    "name": "Zombie Squat",
+    "description": "An exercise performed with a barbell that primarily targets the legs.",
+    "primaryMuscleGroup": "Legs",
+    "type": "Compound"
+  },
+  {
+    "name": "Assisted Chin-Up",
+    "description": "A bodyweight exercise that primarily targets the back.",
+    "primaryMuscleGroup": "Back",
+    "type": "Bodyweight"
+  },
+  {
+    "name": "Assisted Pull-Up",
+    "description": "A bodyweight exercise that primarily targets the back.",
+    "primaryMuscleGroup": "Back",
+    "type": "Bodyweight"
+  },
+  {
+    "name": "Back Extension",
+    "description": "An exercise performed with a barbell that primarily targets the back.",
+    "primaryMuscleGroup": "Back",
+    "type": "Isolation"
+  },
+  {
+    "name": "Banded Muscle-Up",
+    "description": "An exercise performed with a resistance band that primarily targets the back.",
+    "primaryMuscleGroup": "Back",
+    "type": "Bodyweight"
+  },
+  {
+    "name": "Barbell Row",
+    "description": "An exercise performed with a barbell that primarily targets the back.",
+    "primaryMuscleGroup": "Back",
+    "type": "Compound"
+  },
+  {
+    "name": "Barbell Shrug",
+    "description": "An exercise performed with a barbell that primarily targets the back.",
+    "primaryMuscleGroup": "Back",
+    "type": "Isolation"
+  },
+  {
+    "name": "Block Clean",
+    "description": "An exercise performed with a barbell that primarily targets the back.",
+    "primaryMuscleGroup": "Back",
+    "type": "Compound"
+  },
+  {
+    "name": "Block Snatch",
+    "description": "An exercise performed with a barbell that primarily targets the back.",
+    "primaryMuscleGroup": "Back",
+    "type": "Compound"
+  },
+  {
+    "name": "Cable Close Grip Seated Row",
+    "description": "An exercise performed with a cable machine that primarily targets the back.",
+    "primaryMuscleGroup": "Back",
+    "type": "Compound"
+  },
+  {
+    "name": "Cable Wide Grip Seated Row",
+    "description": "An exercise performed with a cable machine that primarily targets the back.",
+    "primaryMuscleGroup": "Back",
+    "type": "Compound"
+  },
+  {
+    "name": "Chest-Supported Dumbbell Row",
+    "description": "An exercise performed with dumbbells that primarily targets the back.",
+    "primaryMuscleGroup": "Back",
+    "type": "Compound"
+  },
+  {
+    "name": "Chest to Bar",
+    "description": "An exercise performed with a barbell that primarily targets the back.",
+    "primaryMuscleGroup": "Back",
+    "type": "Isolation"
+  },
+  {
+    "name": "Chin-Up",
+    "description": "A bodyweight exercise that primarily targets the back.",
+    "primaryMuscleGroup": "Back",
+    "type": "Bodyweight"
+  },
+  {
+    "name": "Clean",
+    "description": "An exercise performed with a barbell that primarily targets the back.",
+    "primaryMuscleGroup": "Back",
+    "type": "Compound"
+  },
+  {
+    "name": "Clean and Jerk",
+    "description": "An exercise performed with a barbell that primarily targets the back.",
+    "primaryMuscleGroup": "Back",
+    "type": "Compound"
+  },
+  {
+    "name": "Close-Grip Chin-Up",
+    "description": "A bodyweight exercise that primarily targets the back.",
+    "primaryMuscleGroup": "Back",
+    "type": "Bodyweight"
+  },
+  {
+    "name": "Close-Grip Lat Pulldown",
+    "description": "An exercise performed with a barbell that primarily targets the back.",
+    "primaryMuscleGroup": "Back",
+    "type": "Isolation"
+  },
+  {
+    "name": "Deadlift",
+    "description": "An exercise performed with a barbell that primarily targets the back.",
+    "primaryMuscleGroup": "Back",
+    "type": "Compound"
+  },
+  {
+    "name": "Deficit Deadlift",
+    "description": "An exercise performed with a barbell that primarily targets the back.",
+    "primaryMuscleGroup": "Back",
+    "type": "Compound"
+  },
+  {
+    "name": "Dumbbell Deadlift",
+    "description": "An exercise performed with dumbbells that primarily targets the back.",
+    "primaryMuscleGroup": "Back",
+    "type": "Compound"
+  },
+  {
+    "name": "Dumbbell Row",
+    "description": "An exercise performed with dumbbells that primarily targets the back.",
+    "primaryMuscleGroup": "Back",
+    "type": "Compound"
+  },
+  {
+    "name": "Dumbbell Shrug",
+    "description": "An exercise performed with dumbbells that primarily targets the back.",
+    "primaryMuscleGroup": "Back",
+    "type": "Isolation"
+  },
+  {
+    "name": "Floor Back Extension",
+    "description": "An exercise performed with a barbell that primarily targets the back.",
+    "primaryMuscleGroup": "Back",
+    "type": "Isolation"
+  },
+  {
+    "name": "Good Morning",
+    "description": "An exercise performed with a barbell that primarily targets the back.",
+    "primaryMuscleGroup": "Back",
+    "type": "Compound"
+  },
+  {
+    "name": "Gorilla Row",
+    "description": "An exercise performed with a barbell that primarily targets the back.",
+    "primaryMuscleGroup": "Back",
+    "type": "Compound"
+  },
+  {
+    "name": "Hang Clean",
+    "description": "An exercise performed with a barbell that primarily targets the back.",
+    "primaryMuscleGroup": "Back",
+    "type": "Compound"
+  },
+  {
+    "name": "Hang Power Clean",
+    "description": "An exercise performed with a barbell that primarily targets the back.",
+    "primaryMuscleGroup": "Back",
+    "type": "Compound"
+  },
+  {
+    "name": "Hang Power Snatch",
+    "description": "An exercise performed with a barbell that primarily targets the back.",
+    "primaryMuscleGroup": "Back",
+    "type": "Compound"
+  },
+  {
+    "name": "Hang Snatch",
+    "description": "An exercise performed with a barbell that primarily targets the back.",
+    "primaryMuscleGroup": "Back",
+    "type": "Compound"
+  },
+  {
+    "name": "Inverted Row",
+    "description": "An exercise performed with a barbell that primarily targets the back.",
+    "primaryMuscleGroup": "Back",
+    "type": "Compound"
+  },
+  {
+    "name": "Inverted Row with Underhand Grip",
+    "description": "An exercise performed with a barbell that primarily targets the back.",
+    "primaryMuscleGroup": "Back",
+    "type": "Compound"
+  },
+  {
+    "name": "Jefferson Curl",
+    "description": "An exercise performed with a barbell that primarily targets the back.",
+    "primaryMuscleGroup": "Back",
+    "type": "Isolation"
+  },
+  {
+    "name": "Jumping Muscle-Up",
+    "description": "A bodyweight exercise that primarily targets the back.",
+    "primaryMuscleGroup": "Back",
+    "type": "Bodyweight"
+  },
+  {
+    "name": "Kettlebell Clean",
+    "description": "An exercise performed with a kettlebell that primarily targets the back.",
+    "primaryMuscleGroup": "Back",
+    "type": "Compound"
+  },
+  {
+    "name": "Kettlebell Clean & Jerk",
+    "description": "An exercise performed with a kettlebell that primarily targets the back.",
+    "primaryMuscleGroup": "Back",
+    "type": "Compound"
+  },
+  {
+    "name": "Kettlebell Clean & Press",
+    "description": "An exercise performed with a kettlebell that primarily targets the back.",
+    "primaryMuscleGroup": "Back",
+    "type": "Compound"
+  },
+  {
+    "name": "Kettlebell Row",
+    "description": "An exercise performed with a kettlebell that primarily targets the back.",
+    "primaryMuscleGroup": "Back",
+    "type": "Compound"
+  },
+  {
+    "name": "Kettlebell Snatch",
+    "description": "An exercise performed with a kettlebell that primarily targets the back.",
+    "primaryMuscleGroup": "Back",
+    "type": "Compound"
+  },
+  {
+    "name": "Kettlebell Swing",
+    "description": "An exercise performed with a kettlebell that primarily targets the back.",
+    "primaryMuscleGroup": "Back",
+    "type": "Compound"
+  },
+  {
+    "name": "Kroc Row",
+    "description": "An exercise performed with a barbell that primarily targets the back.",
+    "primaryMuscleGroup": "Back",
+    "type": "Compound"
+  },
+  {
+    "name": "Lat Pulldown With Neutral Grip",
+    "description": "An exercise performed with a barbell that primarily targets the back.",
+    "primaryMuscleGroup": "Back",
+    "type": "Isolation"
+  },
+  {
+    "name": "Lat Pulldown With Pronated Grip",
+    "description": "An exercise performed with a barbell that primarily targets the back.",
+    "primaryMuscleGroup": "Back",
+    "type": "Isolation"
+  },
+  {
+    "name": "Lat Pulldown With Supinated Grip",
+    "description": "An exercise performed with a barbell that primarily targets the back.",
+    "primaryMuscleGroup": "Back",
+    "type": "Isolation"
+  },
+  {
+    "name": "Machine Lat Pulldown",
+    "description": "An exercise performed with a machine that primarily targets the back.",
+    "primaryMuscleGroup": "Back",
+    "type": "Machine"
+  },
+  {
+    "name": "Muscle-Up (Bar)",
+    "description": "A bodyweight exercise that primarily targets the back.",
+    "primaryMuscleGroup": "Back",
+    "type": "Bodyweight"
+  },
+  {
+    "name": "Muscle-Up (Rings)",
+    "description": "An exercise performed with gymnastic rings that primarily targets the back.",
+    "primaryMuscleGroup": "Back",
+    "type": "Bodyweight"
+  },
+  {
+    "name": "Neutral Close-Grip Lat Pulldown",
+    "description": "An exercise performed with a barbell that primarily targets the back.",
+    "primaryMuscleGroup": "Back",
+    "type": "Isolation"
+  },
+  {
+    "name": "One-Handed Cable Row",
+    "description": "An exercise performed with a cable machine that primarily targets the back.",
+    "primaryMuscleGroup": "Back",
+    "type": "Compound"
+  },
+  {
+    "name": "One-Handed Kettlebell Swing",
+    "description": "An exercise performed with a kettlebell that primarily targets the back.",
+    "primaryMuscleGroup": "Back",
+    "type": "Compound"
+  },
+  {
+    "name": "One-Handed Lat Pulldown",
+    "description": "An exercise performed with a barbell that primarily targets the back.",
+    "primaryMuscleGroup": "Back",
+    "type": "Isolation"
+  },
+  {
+    "name": "Pause Deadlift",
+    "description": "An exercise performed with a barbell that primarily targets the back.",
+    "primaryMuscleGroup": "Back",
+    "type": "Compound"
+  },
+  {
+    "name": "Pendlay Row",
+    "description": "An exercise performed with a barbell that primarily targets the back.",
+    "primaryMuscleGroup": "Back",
+    "type": "Compound"
+  },
+  {
+    "name": "Power Clean",
+    "description": "An exercise performed with a barbell that primarily targets the back.",
+    "primaryMuscleGroup": "Back",
+    "type": "Compound"
+  },
+  {
+    "name": "Power Snatch",
+    "description": "An exercise performed with a barbell that primarily targets the back.",
+    "primaryMuscleGroup": "Back",
+    "type": "Compound"
+  },
+  {
+    "name": "Pull-Up",
+    "description": "A bodyweight exercise that primarily targets the back.",
+    "primaryMuscleGroup": "Back",
+    "type": "Bodyweight"
+  },
+  {
+    "name": "Pull-Up With a Neutral Grip",
+    "description": "A bodyweight exercise that primarily targets the back.",
+    "primaryMuscleGroup": "Back",
+    "type": "Bodyweight"
+  },
+  {
+    "name": "Rack Pull",
+    "description": "An exercise performed with a barbell that primarily targets the back.",
+    "primaryMuscleGroup": "Back",
+    "type": "Isolation"
+  },
+  {
+    "name": "Renegade Row",
+    "description": "An exercise performed with a barbell that primarily targets the back.",
+    "primaryMuscleGroup": "Back",
+    "type": "Compound"
+  },
+  {
+    "name": "Rope Pulldown",
+    "description": "An exercise performed with a barbell that primarily targets the back.",
+    "primaryMuscleGroup": "Back",
+    "type": "Isolation"
+  },
+  {
+    "name": "Ring Pull-Up",
+    "description": "A bodyweight exercise that primarily targets the back.",
+    "primaryMuscleGroup": "Back",
+    "type": "Bodyweight"
+  },
+  {
+    "name": "Ring Row",
+    "description": "An exercise performed with a barbell that primarily targets the back.",
+    "primaryMuscleGroup": "Back",
+    "type": "Compound"
+  },
+  {
+    "name": "Scap Pull-Up",
+    "description": "A bodyweight exercise that primarily targets the back.",
+    "primaryMuscleGroup": "Back",
+    "type": "Bodyweight"
+  },
+  {
+    "name": "Seal Row",
+    "description": "An exercise performed with a barbell that primarily targets the back.",
+    "primaryMuscleGroup": "Back",
+    "type": "Compound"
+  },
+  {
+    "name": "Seated Machine Row",
+    "description": "An exercise performed with a machine that primarily targets the back.",
+    "primaryMuscleGroup": "Back",
+    "type": "Machine"
+  },
+  {
+    "name": "Single Leg Deadlift with Kettlebell",
+    "description": "An exercise performed with a kettlebell that primarily targets the back.",
+    "primaryMuscleGroup": "Back",
+    "type": "Compound"
+  },
+  {
+    "name": "Smith Machine Deadlift",
+    "description": "An exercise performed with a Smith machine that primarily targets the back.",
+    "primaryMuscleGroup": "Back",
+    "type": "Machine"
+  },
+  {
+    "name": "Smith Machine One-Handed Row",
+    "description": "An exercise performed with a Smith machine that primarily targets the back.",
+    "primaryMuscleGroup": "Back",
+    "type": "Machine"
+  },
+  {
+    "name": "Snatch",
+    "description": "An exercise performed with a barbell that primarily targets the back.",
+    "primaryMuscleGroup": "Back",
+    "type": "Compound"
+  },
+  {
+    "name": "Snatch Grip Deadlift",
+    "description": "An exercise performed with a barbell that primarily targets the back.",
+    "primaryMuscleGroup": "Back",
+    "type": "Compound"
+  },
+  {
+    "name": "Stiff-Legged Deadlift",
+    "description": "An exercise performed with a barbell that primarily targets the back.",
+    "primaryMuscleGroup": "Back",
+    "type": "Compound"
+  },
+  {
+    "name": "Straight Arm Lat Pulldown",
+    "description": "An exercise performed with a barbell that primarily targets the back.",
+    "primaryMuscleGroup": "Back",
+    "type": "Isolation"
+  },
+  {
+    "name": "Sumo Deadlift",
+    "description": "An exercise performed with a barbell that primarily targets the back.",
+    "primaryMuscleGroup": "Back",
+    "type": "Compound"
+  },
+  {
+    "name": "Superman Raise",
+    "description": "A bodyweight exercise that primarily targets the back.",
+    "primaryMuscleGroup": "Back",
+    "type": "Isolation"
+  },
+  {
+    "name": "T-Bar Row",
+    "description": "An exercise performed with a barbell that primarily targets the back.",
+    "primaryMuscleGroup": "Back",
+    "type": "Compound"
+  },
+  {
+    "name": "Towel Row",
+    "description": "An exercise performed with a barbell that primarily targets the back.",
+    "primaryMuscleGroup": "Back",
+    "type": "Compound"
+  },
+  {
+    "name": "Trap Bar Deadlift With High Handles",
+    "description": "An exercise performed with a trap bar that primarily targets the back.",
+    "primaryMuscleGroup": "Back",
+    "type": "Compound"
+  },
+  {
+    "name": "Trap Bar Deadlift With Low Handles",
+    "description": "An exercise performed with a trap bar that primarily targets the back.",
+    "primaryMuscleGroup": "Back",
+    "type": "Compound"
+  },
+  {
+    "name": "Banded Side Kicks",
+    "description": "An exercise performed with a resistance band that primarily targets the glutes.",
+    "primaryMuscleGroup": "Glutes",
+    "type": "Bodyweight"
+  },
+  {
+    "name": "Cable Glute Kickback",
+    "description": "An exercise performed with a cable machine that primarily targets the glutes.",
+    "primaryMuscleGroup": "Glutes",
+    "type": "Isolation"
+  },
+  {
+    "name": "Cable Pull Through",
+    "description": "An exercise performed with a cable machine that primarily targets the glutes.",
+    "primaryMuscleGroup": "Glutes",
+    "type": "Isolation"
+  },
+  {
+    "name": "Cable Machine Hip Abduction",
+    "description": "An exercise performed with a cable machine that primarily targets the glutes.",
+    "primaryMuscleGroup": "Glutes",
+    "type": "Machine"
+  },
+  {
+    "name": "Clamshells",
+    "description": "A bodyweight exercise that primarily targets the glutes.",
+    "primaryMuscleGroup": "Glutes",
+    "type": "Bodyweight"
+  },
+  {
+    "name": "Cossack Squat",
+    "description": "An exercise performed with a barbell that primarily targets the glutes.",
+    "primaryMuscleGroup": "Glutes",
+    "type": "Compound"
+  },
+  {
+    "name": "Death March with Dumbbells",
+    "description": "An exercise performed with dumbbells that primarily targets the glutes.",
+    "primaryMuscleGroup": "Glutes",
+    "type": "Isolation"
+  },
+  {
+    "name": "Donkey Kicks",
+    "description": "A bodyweight exercise that primarily targets the glutes.",
+    "primaryMuscleGroup": "Glutes",
+    "type": "Bodyweight"
+  },
+  {
+    "name": "Dumbbell Romanian Deadlift",
+    "description": "An exercise performed with dumbbells that primarily targets the glutes.",
+    "primaryMuscleGroup": "Glutes",
+    "type": "Compound"
+  },
+  {
+    "name": "Dumbbell Frog Pumps",
+    "description": "An exercise performed with dumbbells that primarily targets the glutes.",
+    "primaryMuscleGroup": "Glutes",
+    "type": "Isolation"
+  },
+  {
+    "name": "Fire Hydrants",
+    "description": "A bodyweight exercise that primarily targets the glutes.",
+    "primaryMuscleGroup": "Glutes",
+    "type": "Bodyweight"
+  },
+  {
+    "name": "Frog Pumps",
+    "description": "An exercise performed with a barbell that primarily targets the glutes.",
+    "primaryMuscleGroup": "Glutes",
+    "type": "Isolation"
+  },
+  {
+    "name": "Glute Bridge",
+    "description": "An exercise performed with a barbell that primarily targets the glutes.",
+    "primaryMuscleGroup": "Glutes",
+    "type": "Isolation"
+  },
+  {
+    "name": "Hip Abduction Against Band",
+    "description": "An exercise performed with a resistance band that primarily targets the glutes.",
+    "primaryMuscleGroup": "Glutes",
+    "type": "Isolation"
+  },
+  {
+    "name": "Hip Abduction Machine",
+    "description": "An exercise performed with a machine that primarily targets the glutes.",
+    "primaryMuscleGroup": "Glutes",
+    "type": "Machine"
+  },
+  {
+    "name": "Hip Thrust",
+    "description": "An exercise performed with a barbell that primarily targets the glutes.",
+    "primaryMuscleGroup": "Glutes",
+    "type": "Isolation"
+  },
+  {
+    "name": "Hip Thrust Machine",
+    "description": "An exercise performed with a machine that primarily targets the glutes.",
+    "primaryMuscleGroup": "Glutes",
+    "type": "Machine"
+  },
+  {
+    "name": "Hip Thrust With Band Around Knees",
+    "description": "An exercise performed with a resistance band that primarily targets the glutes.",
+    "primaryMuscleGroup": "Glutes",
+    "type": "Isolation"
+  },
+  {
+    "name": "Kettlebell Windmill",
+    "description": "An exercise performed with a kettlebell that primarily targets the glutes.",
+    "primaryMuscleGroup": "Glutes",
+    "type": "Isolation"
+  },
+  {
+    "name": "Lateral Walk With Band",
+    "description": "An exercise performed with a resistance band that primarily targets the glutes.",
+    "primaryMuscleGroup": "Glutes",
+    "type": "Isolation"
+  },
+  {
+    "name": "Machine Glute Kickbacks",
+    "description": "An exercise performed with a machine that primarily targets the glutes.",
+    "primaryMuscleGroup": "Glutes",
+    "type": "Machine"
+  },
+  {
+    "name": "One-Legged Glute Bridge",
+    "description": "An exercise performed with a barbell that primarily targets the glutes.",
+    "primaryMuscleGroup": "Glutes",
+    "type": "Isolation"
+  },
+  {
+    "name": "One-Legged Hip Thrust",
+    "description": "An exercise performed with a barbell that primarily targets the glutes.",
+    "primaryMuscleGroup": "Glutes",
+    "type": "Isolation"
+  },
+  {
+    "name": "Reverse Hyperextension",
+    "description": "An exercise performed with a barbell that primarily targets the glutes.",
+    "primaryMuscleGroup": "Glutes",
+    "type": "Isolation"
+  },
+  {
+    "name": "Smith Machine Hip Thrust",
+    "description": "An exercise performed with a Smith machine that primarily targets the glutes.",
+    "primaryMuscleGroup": "Glutes",
+    "type": "Machine"
+  },
+  {
+    "name": "Single Leg Romanian Deadlift",
+    "description": "An exercise performed with a barbell that primarily targets the glutes.",
+    "primaryMuscleGroup": "Glutes",
+    "type": "Compound"
+  },
+  {
+    "name": "Standing Hip Abduction Against Band",
+    "description": "An exercise performed with a resistance band that primarily targets the glutes.",
+    "primaryMuscleGroup": "Glutes",
+    "type": "Isolation"
+  },
+  {
+    "name": "Standing Glute Kickback in Machine",
+    "description": "An exercise performed with a machine that primarily targets the glutes.",
+    "primaryMuscleGroup": "Glutes",
+    "type": "Machine"
+  },
+  {
+    "name": "Standing Glute Push Down",
+    "description": "An exercise performed with a barbell that primarily targets the glutes.",
+    "primaryMuscleGroup": "Glutes",
+    "type": "Isolation"
+  },
+  {
+    "name": "Ball Slams",
+    "description": "An exercise performed with a barbell that primarily targets the core.",
+    "primaryMuscleGroup": "Core",
+    "type": "Isolation"
+  },
+  {
+    "name": "Bicycle Crunch",
+    "description": "A bodyweight exercise that primarily targets the core.",
+    "primaryMuscleGroup": "Core",
+    "type": "Isolation"
+  },
+  {
+    "name": "Cable Crunch",
+    "description": "An exercise performed with a cable machine that primarily targets the core.",
+    "primaryMuscleGroup": "Core",
+    "type": "Isolation"
+  },
+  {
+    "name": "Captain's Chair Knee Raise",
+    "description": "A bodyweight exercise that primarily targets the core.",
+    "primaryMuscleGroup": "Core",
+    "type": "Isolation"
+  },
+  {
+    "name": "Captain's Chair Leg Raise",
+    "description": "A bodyweight exercise that primarily targets the core.",
+    "primaryMuscleGroup": "Core",
+    "type": "Isolation"
+  },
+  {
+    "name": "Copenhagen Plank",
+    "description": "A bodyweight exercise that primarily targets the core.",
+    "primaryMuscleGroup": "Core",
+    "type": "Isolation"
+  },
+  {
+    "name": "Core Twist",
+    "description": "An exercise performed with a barbell that primarily targets the core.",
+    "primaryMuscleGroup": "Core",
+    "type": "Isolation"
+  },
+  {
+    "name": "Crunch",
+    "description": "A bodyweight exercise that primarily targets the core.",
+    "primaryMuscleGroup": "Core",
+    "type": "Isolation"
+  },
+  {
+    "name": "Dead Bug",
+    "description": "A bodyweight exercise that primarily targets the core.",
+    "primaryMuscleGroup": "Core",
+    "type": "Isolation"
+  },
+  {
+    "name": "Dead Bug With Dumbbells",
+    "description": "An exercise performed with dumbbells that primarily targets the core.",
+    "primaryMuscleGroup": "Core",
+    "type": "Isolation"
+  },
+  {
+    "name": "Dragon Flag",
+    "description": "A bodyweight exercise that primarily targets the core.",
+    "primaryMuscleGroup": "Core",
+    "type": "Isolation"
+  },
+  {
+    "name": "Dumbbell Side Bend",
+    "description": "An exercise performed with dumbbells that primarily targets the core.",
+    "primaryMuscleGroup": "Core",
+    "type": "Isolation"
+  },
+  {
+    "name": "Dynamic Side Plank",
+    "description": "A bodyweight exercise that primarily targets the core.",
+    "primaryMuscleGroup": "Core",
+    "type": "Isolation"
+  },
+  {
+    "name": "Hanging Knee Raise",
+    "description": "A bodyweight exercise that primarily targets the core.",
+    "primaryMuscleGroup": "Core",
+    "type": "Isolation"
+  },
+  {
+    "name": "Hanging Leg Raise",
+    "description": "A bodyweight exercise that primarily targets the core.",
+    "primaryMuscleGroup": "Core",
+    "type": "Isolation"
+  },
+  {
+    "name": "Hanging Sit-Up",
+    "description": "A bodyweight exercise that primarily targets the core.",
+    "primaryMuscleGroup": "Core",
+    "type": "Bodyweight"
+  },
+  {
+    "name": "Hanging Windshield Wiper",
+    "description": "A bodyweight exercise that primarily targets the core.",
+    "primaryMuscleGroup": "Core",
+    "type": "Isolation"
+  },
+  {
+    "name": "High to Low Wood Chop with Band",
+    "description": "An exercise performed with a resistance band that primarily targets the core.",
+    "primaryMuscleGroup": "Core",
+    "type": "Isolation"
+  },
+  {
+    "name": "High to Low Wood Chop with Cable",
+    "description": "An exercise performed with a cable machine that primarily targets the core.",
+    "primaryMuscleGroup": "Core",
+    "type": "Isolation"
+  },
+  {
+    "name": "Hollow Body Crunch",
+    "description": "A bodyweight exercise that primarily targets the core.",
+    "primaryMuscleGroup": "Core",
+    "type": "Isolation"
+  },
+  {
+    "name": "Hollow Hold",
+    "description": "A bodyweight exercise that primarily targets the core.",
+    "primaryMuscleGroup": "Core",
+    "type": "Isolation"
+  },
+  {
+    "name": "Horizontal Wood Chop with Band",
+    "description": "An exercise performed with a resistance band that primarily targets the core.",
+    "primaryMuscleGroup": "Core",
+    "type": "Isolation"
+  },
+  {
+    "name": "Horizontal Wood Chop with Cable",
+    "description": "An exercise performed with a cable machine that primarily targets the core.",
+    "primaryMuscleGroup": "Core",
+    "type": "Isolation"
+  },
+  {
+    "name": "Jackknife Sit-Up",
+    "description": "A bodyweight exercise that primarily targets the core.",
+    "primaryMuscleGroup": "Core",
+    "type": "Bodyweight"
+  },
+  {
+    "name": "Kettlebell Plank Pull Through",
+    "description": "An exercise performed with a kettlebell that primarily targets the core.",
+    "primaryMuscleGroup": "Core",
+    "type": "Isolation"
+  },
+  {
+    "name": "Kneeling Ab Wheel Roll-Out",
+    "description": "An exercise performed with a barbell that primarily targets the core.",
+    "primaryMuscleGroup": "Core",
+    "type": "Isolation"
+  },
+  {
+    "name": "Kneeling Plank",
+    "description": "A bodyweight exercise that primarily targets the core.",
+    "primaryMuscleGroup": "Core",
+    "type": "Isolation"
+  },
+  {
+    "name": "Kneeling Side Plank",
+    "description": "A bodyweight exercise that primarily targets the core.",
+    "primaryMuscleGroup": "Core",
+    "type": "Isolation"
+  },
+  {
+    "name": "Landmine Rotation",
+    "description": "An exercise performed with a landmine setup that primarily targets the core.",
+    "primaryMuscleGroup": "Core",
+    "type": "Isolation"
+  },
+  {
+    "name": "L-Sit",
+    "description": "A bodyweight exercise that primarily targets the core.",
+    "primaryMuscleGroup": "Core",
+    "type": "Isolation"
+  },
+  {
+    "name": "Low to High Wood Chop with Band",
+    "description": "An exercise performed with a resistance band that primarily targets the core.",
+    "primaryMuscleGroup": "Core",
+    "type": "Isolation"
+  },
+  {
+    "name": "Low to High Wood Chop with Cable",
+    "description": "An exercise performed with a cable machine that primarily targets the core.",
+    "primaryMuscleGroup": "Core",
+    "type": "Isolation"
+  },
+  {
+    "name": "Lying Leg Raise",
+    "description": "An exercise performed with a barbell that primarily targets the core.",
+    "primaryMuscleGroup": "Core",
+    "type": "Isolation"
+  },
+  {
+    "name": "Lying Windshield Wiper",
+    "description": "A bodyweight exercise that primarily targets the core.",
+    "primaryMuscleGroup": "Core",
+    "type": "Isolation"
+  },
+  {
+    "name": "Lying Windshield Wiper with Bent Knees",
+    "description": "A bodyweight exercise that primarily targets the core.",
+    "primaryMuscleGroup": "Core",
+    "type": "Isolation"
+  },
+  {
+    "name": "Machine Crunch",
+    "description": "An exercise performed with a machine that primarily targets the core.",
+    "primaryMuscleGroup": "Core",
+    "type": "Machine"
+  },
+  {
+    "name": "Mountain Climbers",
+    "description": "A bodyweight exercise that primarily targets the core.",
+    "primaryMuscleGroup": "Core",
+    "type": "Bodyweight"
+  },
+  {
+    "name": "Oblique Crunch",
+    "description": "A bodyweight exercise that primarily targets the core.",
+    "primaryMuscleGroup": "Core",
+    "type": "Isolation"
+  },
+  {
+    "name": "Oblique Sit-Up",
+    "description": "A bodyweight exercise that primarily targets the core.",
+    "primaryMuscleGroup": "Core",
+    "type": "Bodyweight"
+  },
+  {
+    "name": "Pallof Press",
+    "description": "An exercise performed with a barbell that primarily targets the core.",
+    "primaryMuscleGroup": "Core",
+    "type": "Isolation"
+  },
+  {
+    "name": "Plank",
+    "description": "A bodyweight exercise that primarily targets the core.",
+    "primaryMuscleGroup": "Core",
+    "type": "Isolation"
+  },
+  {
+    "name": "Plank with Leg Lifts",
+    "description": "A bodyweight exercise that primarily targets the core.",
+    "primaryMuscleGroup": "Core",
+    "type": "Isolation"
+  },
+  {
+    "name": "Plank with Shoulder Taps",
+    "description": "A bodyweight exercise that primarily targets the core.",
+    "primaryMuscleGroup": "Core",
+    "type": "Isolation"
+  },
+  {
+    "name": "Side Plank",
+    "description": "A bodyweight exercise that primarily targets the core.",
+    "primaryMuscleGroup": "Core",
+    "type": "Isolation"
+  },
+  {
+    "name": "Sit-Up",
+    "description": "A bodyweight exercise that primarily targets the core.",
+    "primaryMuscleGroup": "Core",
+    "type": "Bodyweight"
+  },
+  {
+    "name": "Weighted Plank",
+    "description": "A bodyweight exercise that primarily targets the core.",
+    "primaryMuscleGroup": "Core",
+    "type": "Isolation"
+  },
+  {
+    "name": "Barbell Standing Calf Raise",
+    "description": "An exercise performed with a barbell that primarily targets the calves.",
+    "primaryMuscleGroup": "Calves",
+    "type": "Isolation"
+  },
+  {
+    "name": "Barbell Seated Calf Raise",
+    "description": "An exercise performed with a barbell that primarily targets the calves.",
+    "primaryMuscleGroup": "Calves",
+    "type": "Isolation"
+  },
+  {
+    "name": "Calf Raise in Leg Press",
+    "description": "An exercise performed with a barbell that primarily targets the calves.",
+    "primaryMuscleGroup": "Calves",
+    "type": "Machine"
+  },
+  {
+    "name": "Donkey Calf Raise",
+    "description": "An exercise performed with a barbell that primarily targets the calves.",
+    "primaryMuscleGroup": "Calves",
+    "type": "Isolation"
+  },
+  {
+    "name": "Eccentric Heel Drop",
+    "description": "An exercise performed with a barbell that primarily targets the calves.",
+    "primaryMuscleGroup": "Calves",
+    "type": "Isolation"
+  },
+  {
+    "name": "Heel Raise",
+    "description": "An exercise performed with a barbell that primarily targets the calves.",
+    "primaryMuscleGroup": "Calves",
+    "type": "Isolation"
+  },
+  {
+    "name": "Seated Calf Raise",
+    "description": "An exercise performed with a barbell that primarily targets the calves.",
+    "primaryMuscleGroup": "Calves",
+    "type": "Isolation"
+  },
+  {
+    "name": "Standing Calf Raise",
+    "description": "An exercise performed with a barbell that primarily targets the calves.",
+    "primaryMuscleGroup": "Calves",
+    "type": "Isolation"
+  },
+  {
+    "name": "Rowing Machine",
+    "description": "An exercise performed with a machine that primarily targets the fullbody.",
+    "primaryMuscleGroup": "FullBody",
+    "type": "Cardio"
+  },
+  {
+    "name": "Stationary Bike",
+    "description": "An exercise performed with a barbell that primarily targets the fullbody.",
+    "primaryMuscleGroup": "FullBody",
+    "type": "Cardio"
+  }
+]
