@@ -1,4 +1,3 @@
-using System.Reflection;
 using System.Text.Json;
 using GymTracker.Domain.Entities;
 using GymTracker.Infrastructure.Persistence.Converters;

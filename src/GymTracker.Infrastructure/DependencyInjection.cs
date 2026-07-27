@@ -1,7 +1,6 @@
 
 using System.Reflection;
 using System.Text.Json;
-using System.Text.Json.Serialization;
 using GymTracker.Domain.Entities;
 using GymTracker.Domain.Enums;
 using Microsoft.EntityFrameworkCore;
@@ -14,7 +13,7 @@ namespace GymTracker.Infrastructure;
 /// <summary>
 /// Provides extension methods for configuring and initializing the infrastructure layer of the application.
 /// </summary>
-public static class DependencyInjection
+public static partial class DependencyInjection
 {
     private const string ExercisesResourceName = "GymTracker.Infrastructure.Resources.exercises.json";
 
@@ -49,25 +48,17 @@ public static class DependencyInjection
         var exerciseSeeds = await JsonSerializer.DeserializeAsync<List<ExerciseSeed>>(stream)
             ?? throw new InvalidOperationException("Exercise seed data could not be read.");
 
-        return exerciseSeeds.Select(seed => new Exercise(
-            seed.Name,
-            Enum.Parse<MuscleGroup>(seed.PrimaryMuscleGroup, ignoreCase: true),
-            Enum.Parse<ExerciseType>(seed.Type, ignoreCase: true),
-            seed.Description)).ToList();
+        return exerciseSeeds.Select(ExerciseSeedToExercise).ToList();
     }
 
-    private sealed class ExerciseSeed
+    private static Exercise ExerciseSeedToExercise(ExerciseSeed seed)
     {
-        [JsonPropertyName("name")]
-        public string Name { get; set; } = string.Empty;
-
-        [JsonPropertyName("description")]
-        public string? Description { get; set; }
-
-        [JsonPropertyName("primaryMuscleGroup")]
-        public string PrimaryMuscleGroup { get; set; } = string.Empty;
-
-        [JsonPropertyName("type")]
-        public string Type { get; set; } = string.Empty;
+        return new Exercise(
+            seed.Name,
+            Enum.TryParse<MuscleGroup>(seed.PrimaryMuscleGroup, ignoreCase: true, out var primaryMuscleGroup) ? primaryMuscleGroup
+                : throw new InvalidOperationException($"Invalid muscle group: {seed.PrimaryMuscleGroup} for exercise: {seed.Name}"),
+            Enum.TryParse<ExerciseType>(seed.Type, ignoreCase: true, out var exerciseType) ? exerciseType
+                : throw new InvalidOperationException($"Invalid exercise type: {seed.Type} for exercise: {seed.Name}"),
+            seed.Description);
     }
 }
