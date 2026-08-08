@@ -1,12 +1,13 @@
 using Microsoft.EntityFrameworkCore;
 using GymTracker.Domain.Entities;
+using GymTracker.Application.Exercises;
 
 namespace GymTracker.Infrastructure;
 
 /// <summary>
 /// Represents the database context for the GymTracker application, providing access to the application's entities.
 /// </summary>
-public class GyTracDbContext : DbContext
+public class GyTracDbContext : DbContext, IGyTracDbContext
 {
     public GyTracDbContext(DbContextOptions<GyTracDbContext> options) : base(options)
     {

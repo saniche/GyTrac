@@ -1,6 +1,7 @@
 
 using System.Reflection;
 using System.Text.Json;
+using GymTracker.Application.Exercises;
 using GymTracker.Domain.Entities;
 using GymTracker.Domain.Enums;
 using Microsoft.EntityFrameworkCore;
@@ -21,6 +22,7 @@ public static partial class DependencyInjection
     {
         services.AddDbContext<GyTracDbContext>(options =>
             options.UseNpgsql(configuration.GetConnectionString("DefaultConnection")));
+        services.AddScoped<IGyTracDbContext>(sp => sp.GetRequiredService<GyTracDbContext>());
 
         return services;
     }

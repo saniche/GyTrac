@@ -1,5 +1,6 @@
 using System.Text;
 using GymTracker.Api.Middleware;
+using GymTracker.Application.Exercises;
 using GymTracker.Common.Extensions;
 using GymTracker.Infrastructure;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
@@ -28,6 +29,7 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
 
 // CQRS dispatcher
 builder.Services.AddDispatcher();
+builder.Services.AddHandlersFromAssembly(typeof(GetAllExercisesQuery).Assembly);
 
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
@@ -77,3 +79,6 @@ app.UseAuthentication();
 app.UseAuthorization();
 app.MapControllers();
 app.Run();
+
+
+public partial class Program { }
